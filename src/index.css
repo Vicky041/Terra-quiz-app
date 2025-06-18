@@ -75,3 +75,64 @@ a:hover {
   text-decoration: underline;
 }
 
+
+/* SECTION STYLES */
+
+/* Global App Styles */
+
+/* Container for the whole app */
+.app-container {
+  min-height: 100vh;
+  background: #e6f0ff; /* subtle light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styles for ErrorBoundary fallback UI */
+.error-fallback {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: #ffe6e6; /* light red background */
+  border: 1px solid #ff4d4d;
+  border-radius: 10px;
+  text-align: center;
+  color: #b30000;
+  box-shadow: 0 4px 12px rgba(179, 0, 0, 0.3);
+}
+
+.error-fallback h2 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
+.error-fallback p {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+
+/* Quiz Page Styles */
+
+.quiz-page-container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .quiz-page-container {
+    margin: 20px 10px;
+    padding: 0 10px;
+  }
+}
