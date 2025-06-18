@@ -1,0 +1,38 @@
+.result-panel {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.result-panel h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.result-panel p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.result-panel button {
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  background-color: #28a745; /* green */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.result-panel button:hover {
+  background-color: #1e7e34;
+}

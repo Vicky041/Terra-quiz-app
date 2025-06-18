@@ -1,11 +1,15 @@
-import Quiz from "./ui/Quiz"
+import ErrorBoundary from "./components/ErrorBoundary"
+import QuizPage from "./ui/QuizPage"
+
 
 function App() {
 
   return (
-    <>
-      <Quiz />
-    </>
+    <ErrorBoundary>
+      <div className="app-container">
+        <QuizPage />
+      </div>
+    </ErrorBoundary>
   )
 }
 
