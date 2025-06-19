@@ -1,11 +1,13 @@
+import Dashboard from "./components/Dashboard"
+import QuizPage from "./ui/QuizPage"
 import NavBar from "./ui/NavBar";
-import QuizPage from "./ui/QuizPage";
 
 function App() {
   return (
     <>
       <NavBar />
       <div className="app-container">
+        <Dashboard />
         <QuizPage />
       </div>
     </>
