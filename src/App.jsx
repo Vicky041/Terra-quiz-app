@@ -1,17 +1,17 @@
 import Dashboard from "./components/Dashboard"
-import ErrorBoundary from "./components/ErrorBoundary"
 import QuizPage from "./ui/QuizPage"
-
+import NavBar from "./ui/NavBar";
 
 function App() {
-
   return (
-    <ErrorBoundary>
+    <>
+      <NavBar />
       <div className="app-container">
         <Dashboard />
+        <QuizPage />
       </div>
-    </ErrorBoundary>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;

@@ -5,7 +5,7 @@ import TimerProvider from "../contexts/TimerContext";
 
 const QuizPage = () => {
   return (
-    <TimerProvider initialTime={120}>
+    <TimerProvider>
       <QuizProvider>
         <div className="quiz-page-container">
           <TimerDisplay />
