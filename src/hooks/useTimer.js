@@ -1,5 +1,16 @@
-// src/hooks/useTimer.js
 import { useContext } from "react";
 import { TimerContext } from "../contexts/timerReducer";
 
-export const useTimer = () => useContext(TimerContext);
+export const useTimer = () => {
+    const { state, dispatch } = useContext(TimerContext);
+
+  const resetTimer = () => {
+    dispatch({ type: "RESET_TIMER" });
+  };
+
+  return {
+    ...state,
+    dispatch,
+    resetTimer,
+  };
+}

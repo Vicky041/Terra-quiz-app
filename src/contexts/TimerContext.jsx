@@ -1,6 +1,5 @@
-// src/contexts/TimerContext.jsx
 import { useReducer, useEffect } from "react";
-import { TimerContext, timerReducer, initialTimerState } from "./timerReducer";
+import { timerReducer, initialTimerState, TimerContext } from "./timerReducer";
 
 const TimerProvider = ({ children }) => {
   const [state, dispatch] = useReducer(timerReducer, initialTimerState);
@@ -9,9 +8,13 @@ const TimerProvider = ({ children }) => {
     const id = setInterval(() => {
       dispatch({ type: "DECREMENT_TIME" });
     }, 1000);
+
     dispatch({ type: "SET_INTERVAL", payload: id });
 
-    return () => dispatch({ type: "CLEAR_INTERVAL" });
+    return () => {
+      clearInterval(id);
+      dispatch({ type: "CLEAR_INTERVAL" });
+    };
   }, []);
 
   useEffect(() => {
@@ -20,8 +23,15 @@ const TimerProvider = ({ children }) => {
     }
   }, [state.timeLeft, state.isTimeUp]);
 
+  useEffect(() => {
+    if (state.isTimeUp && state.intervalId) {
+      clearInterval(state.intervalId);
+      dispatch({ type: "CLEAR_INTERVAL" });
+    }
+  }, [state.isTimeUp, state.intervalId]);
+
   return (
-    <TimerContext.Provider value={{ ...state, dispatch }}>
+    <TimerContext.Provider value={{ state, dispatch }}>
       {children}
     </TimerContext.Provider>
   );

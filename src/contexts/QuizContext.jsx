@@ -1,7 +1,6 @@
-// src/contexts/QuizContext.jsx
 import { useReducer, useEffect } from "react";
-import { QuizContext, quizReducer, initialQuizState } from "./quizReducer";
-import quizData from "../data/randomized_quiz.json";
+import { quizReducer, initialQuizState, QuizContext } from "./quizReducer";
+import quizData from "../data/quiz.json";
 import { getShuffledQuestions } from "../utils/quizUtils";
 
 const QuizProvider = ({ children }) => {
