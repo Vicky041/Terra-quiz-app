@@ -3,7 +3,8 @@ import { useQuiz } from "../hooks/useQuiz";
 import { useTimer } from "../hooks/useTimer";
 import QuestionCard from "./QuestionCard";
 import ResultPanel from "./ResultPanel";
-import "../styles/QuizPage.css"
+import HistoryPanel from "./HistoryPanel";
+import "../styles/QuizPage.css";
 
 const Quiz = () => {
   const {
@@ -14,9 +15,10 @@ const Quiz = () => {
     selectedAnswer,
     error,
     dispatch,
+    latestResult,
   } = useQuiz();
 
-  const { isTimeUp } = useTimer();
+  const { isTimeUp, resetTimer } = useTimer();
 
   useEffect(() => {
     if (isTimeUp && !showResult) {
@@ -32,19 +34,43 @@ const Quiz = () => {
     dispatch({ type: "NEXT_QUESTION" });
   };
 
-  const resetQuiz = () => {
-    dispatch({ type: "RESET_QUIZ", payload: questions });
+  const restartQuiz = () => {
+    dispatch({ type: "RESTART_QUIZ" });
+    resetTimer();
   };
 
-  if (error) return <p className="error">{error}</p>;
-  if (!questions.length) return <p>Loading questions...</p>;
-  if (showResult) {
+  if (error) {
+    console.error("Quiz error:", error);
     return (
-      <ResultPanel
-        score={score}
-        total={questions.length}
-        onRestart={resetQuiz}
-      />
+      <div className="error">
+        <h2>Something went wrong.</h2>
+        <p>{error.message || "Unknown error occurred."}</p>
+      </div>
+    );
+  }
+  if (!questions.length) return <p>Loading questions...</p>;
+
+  if (showResult) {
+    const result = latestResult
+      ? {
+          score: latestResult.score,
+          total: latestResult.total,
+        }
+      : {
+          score,
+          total: questions.length,
+        };
+
+    return (
+      <div className="quiz-wrapper">
+        <h2>{latestResult ? "Past Result" : "Your Result"}</h2>
+        <ResultPanel
+          score={result.score}
+          total={result.total}
+          onRestart={restartQuiz}
+        />
+        <HistoryPanel />
+      </div>
     );
   }
 
@@ -60,7 +86,7 @@ const Quiz = () => {
         selectedAnswer={selectedAnswer}
       />
       <button onClick={nextQuestion} disabled={!selectedAnswer}>
-        Next
+        {currentIndex + 1 === questions.length ? "Submit" : "Next"}
       </button>
     </div>
   );

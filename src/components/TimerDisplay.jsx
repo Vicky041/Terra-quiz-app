@@ -4,11 +4,11 @@ import '../styles/TimerDisplay.css';
 
 const TimerDisplay = () => {
   const { timeLeft } = useTimer();
-  const timeClass = timeLeft <= 30 ? 'timer-text low-time' : 'timer-text';
+  const timeClass = timeLeft <= 10 ? 'low-time' : '';
 
   return (
     <div className="timer-wrapper">
-      <div className={timeClass}>Time Left: {formatTime(timeLeft)}</div>
+      <div className={`timer-text ${timeClass}`}>Time Left: {formatTime(timeLeft)}</div>
     </div>
   );
 };

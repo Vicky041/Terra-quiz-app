@@ -1,4 +1,3 @@
-// src/hooks/useQuiz.js
 import { useContext } from "react";
 import { QuizContext } from "../contexts/quizReducer";
 
