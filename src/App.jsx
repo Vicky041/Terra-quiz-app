@@ -1,15 +1,15 @@
-import NavBar from "./ui/NavBar"
-import QuizPage from "./ui/QuizPage"
-
+import NavBar from "./ui/NavBar";
+import QuizPage from "./ui/QuizPage";
 
 function App() {
-
   return (
-      <NavBar/>
+    <>
+      <NavBar />
       <div className="app-container">
         <QuizPage />
       </div>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;
