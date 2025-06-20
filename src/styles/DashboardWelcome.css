@@ -1,11 +1,10 @@
 /* DashboardWelcome css */
 
-
 .container {
   max-width: 1280px;
   width: 100%;
-  max-height: 656px;
-  /* margin: 194px 66px; */
+  height: 100%;
+  margin: auto;
 }
 
 .welcomeText img {
@@ -17,10 +16,11 @@
   background-color: blueviolet;
   border-radius: 8px;
   padding: 20px 40px;
-  width: 1280px;
+  width: 100%;
   display: flex;
   align-items: center;
   text-align: center;
+  /* flex-wrap: wrap; */
 }
 
 .welcomeText h1 {
@@ -29,7 +29,11 @@
   font-weight: 700;
   font-size: 64px;
   line-height: 125%;
-  margin: 0;
+  margin: 0 0 0 20px;
+}
+
+.Cards h2 {
+  color: #442D7C;
 }
 
 .cards {
@@ -69,7 +73,6 @@
   border: 3px solid #05ACF6;
 }
 
-
 .card img {
   width: 141.78px;
   height: 131.86px;
@@ -96,7 +99,7 @@
   letter-spacing: 0%;
 }
 
-.card button {
+.cards button {
   width: 249px;
   height: 56px;
   background-color: #442D7C;
@@ -127,7 +130,6 @@
   transform: translateY(0);
 }
 
-
 /* Tablet (768px – 1199px) */
 @media (max-width: 1199px) {
   .container {
@@ -139,11 +141,13 @@
     width: 100%;
     text-align: center;
     padding: 30px 20px;
+    
   }
 
   .welcomeText h1 {
     font-size: 40px;
     margin-top: 10px;
+    margin-left: 0;
   }
 
   .cards {
@@ -174,6 +178,7 @@
   .welcomeText h1 {
     font-size: 28px;
     text-align: center;
+    margin-left: 0;
   }
 
   .cards {
@@ -206,6 +211,11 @@
 
 /* Small Mobile (≤480px) */
 @media (max-width: 480px) {
+
+  .container {
+    padding-bottom: 120px;
+  }
+
   .welcomeText h1 {
     font-size: 22px;
   }
@@ -227,4 +237,3 @@
     height: 44px;
   }
 }
-

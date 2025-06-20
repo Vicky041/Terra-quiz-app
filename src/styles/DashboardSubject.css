@@ -1,208 +1,174 @@
-/* DashboardSubject css */
+/* DashboardSubject.css */
 
-
-.container {
+.subject-container {
   max-width: 1280px;
-  width: 100%;
-  max-height: 656px;
-  /* margin: 194px 66px; */
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
-.sectionText {
+.subject-header {
   background-color: blueviolet;
   border-radius: 8px;
   padding: 20px 40px;
-  width: 1280px;
-  height: 98px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.sectionText h1 {
+.subject-header h1 {
   color: #fff;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
   font-size: 40px;
-  line-height: 125%;
   margin: 0;
 }
 
-.cards {
+.subject-cards {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 50px;
+  gap: 30px;
+  flex-wrap: wrap;
   margin-top: 60px;
 }
 
-.card {
+.subject-card {
   background: white;
-  border: 3px solid #F85ACA;
+  border: 3px solid #f85aca;
   border-radius: 10px;
   width: 300px;
   height: 400px;
   padding: 20px;
   text-align: center;
   position: relative;
-  overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-.card h2 {
+.subject-card h2 {
   margin: 10px 0;
   color: #4c2673;
   font-size: 24px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0%;
 }
 
-.card p {
+.subject-card p {
   font-size: 18px;
   color: #444;
   margin-bottom: 15px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0%;
 }
 
-.card button {
-  width: 249px;
+.subject-card button {
+  width: 90%;
   height: 56px;
-  background-color: #442D7C;
+  background-color: #442d7c;
   color: white;
-  padding: 8px 32px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  gap: 8px;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.3s ease, transform 0.3s ease;
-  margin-top: 15px;
-  font-size: 18px;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 700;
-  line-height: 125%;
-  letter-spacing: 0%;
 }
 
-.card:hover {
+.subject-card:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  background-color: #764ED7;
+  background-color: #764ed7;
 }
 
-.card:hover h2,
-.card:hover p {
-  color: white;
+.subject-card:hover h2,
+.subject-card:hover p {
+  color: #fff;
 }
 
-.card:hover button {
+.subject-card:hover button {
   opacity: 1;
   transform: translateY(0);
 }
 
-
-
-/* Tablet View (768px - 1199px) */
+/* Tablet View (≤1199px) */
 @media (max-width: 1199px) {
-  .container {
-    padding: 0 20px;
+  .subject-card {
+    width: 300px;
+    height: 400px;
   }
 
-  .sectionText {
-    width: 100%;
-    height: auto;
-    padding: 20px;
-  }
-
-  .sectionText h1 {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .cards {
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-  }
-
-  .card {
-    width: 45%;
-    height: auto;
-    padding: 20px;
-  }
-
-  .card button {
-    width: 90%;
-    height: 48px;
-    font-size: 16px;
+  .subject-header h1 {
+    font-size: 34px;
   }
 }
 
-/* Mobile View (≤ 768px) */
+/* Mobile View (≤768px) */
 @media (max-width: 768px) {
-  .sectionText h1 {
+  .subject-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  .subject-card {
+    width: 300px;
+    height: 400px;
+    max-width: 320px;
+    height: auto;
+    padding: 18px;
+  }
+
+  .subject-card h2 {
     font-size: 24px;
   }
 
-  .cards {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .card {
-    width: 100%;
-    max-width: 340px;
-    height: auto;
-  }
-
-  .card h2 {
-    font-size: 20px;
-  }
-
-  .card p {
-    font-size: 16px;
-  }
-
-  .card button {
-    width: 100%;
-    font-size: 16px;
-    height: 48px;
-  }
-}
-
-/* Mobile Small View (≤ 480px) */
-@media (max-width: 480px) {
-  .sectionText {
-    padding: 16px;
-  }
-
-  .sectionText h1 {
-    font-size: 20px;
-  }
-
-  .card {
-    padding: 16px;
-  }
-
-  .card h2 {
+  .subject-card p {
     font-size: 18px;
   }
 
-  .card p {
+  .subject-card button {
+    font-size: 16px;
+    height: 48px;
+  }
+
+  .subject-header h1 {
+    font-size: 26px;
+  }
+}
+
+/* Extra Small Mobile View (≤480px) */
+@media (max-width: 480px) {
+  .subject-card {
+    padding: 16px;
+    width: 300px;
+    height: 247px;
+  }
+
+  .subject-card h2 {
+    font-size: 24px;
+  }
+
+  .subject-card p {
+    font-size: 18px;
+  }
+
+  .subject-card button {
+    font-size: 14px;
+    height: 44px;
+  }
+
+  .subject-header h1 {
     font-size: 15px;
   }
 
-  .card button {
-    font-size: 15px;
-    height: 44px;
-  }
+  .subject-container {
+  padding-bottom: 100px;
+}
+  
 }
