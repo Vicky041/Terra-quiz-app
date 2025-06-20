@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import QuizPage from "./ui/QuizPage";
-import RootLayout from "./layouts/RootLayout";
+import RootLayout from "./layout/RootLayout";
 import Home from "./ui/Home";
 
 export default function App() {
