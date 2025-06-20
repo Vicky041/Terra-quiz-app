@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
-import { Button } from "../components/TakeQuizButton";
+import  Button  from "../components/TakeQuizButton";
 import quizzyLogo from '../assets/quizzy.png';
 import "../styles/Navbar.css"
 

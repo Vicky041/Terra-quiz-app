@@ -9,13 +9,14 @@ import {
 import Dashboard from "./components/Dashboard";
 import QuizPage from "./ui/QuizPage";
 import RootLayout from "./layouts/RootLayout";
-import Home from "./ui/Home";
+// import Home from "./ui/Home";
+import Hero from "./ui/Hero";
 
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
-        <Route index element={<Home />} />
+        <Route index element={<Hero/>} />
         <Route path="signup" element={<SignUp />} />
         <Route path="login" element={<Login />} />
         <Route path="dashboard" element={<Dashboard />} />
