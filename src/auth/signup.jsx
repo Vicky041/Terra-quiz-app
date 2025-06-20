@@ -78,12 +78,13 @@ export default function SignUp() {
         <div className={styles.section1}>
           <div>
             <div className={styles.param1}>
-              <img src="./quizzy.png" />
+              <img src="src/assets/quizzyPurple.png" />
+              
             </div>
 
             <div>
               <div className={styles.secImg}>
-                <img src="./group1.png" />
+              <img src="src/assets/login.png" />
                 <p style={{ fontSize: 20 }}>
                   Take a Quiz and increase your knowledge
                 </p>

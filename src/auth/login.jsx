@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-
+// import quizzyLogo from "../assets/quizzy.png";
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -47,12 +47,12 @@ export default function Login() {
         <div className={styles.section1}>
           <div>
             <div className={styles.param1}>
-              <img src="./quizzy.png" />
+              <img src="src/assets/quizzyPurple.png" />
             </div>
 
             <div>
               <div className={styles.secImg}>
-                <img src="./group1.png" />
+                <img src="src/assets/login.png" />
                 <p style={{ fontSize: 20 }}>
                   Take a Quiz and increase your knowledge
                 </p>
