@@ -1,44 +1,45 @@
-/* DashboardSubject css */
+/* DashboardLevel.css */
 
-
-.container {
+/* Container setup */
+.level-container {
   max-width: 1280px;
   width: 100%;
-  max-height: 656px;
-  /* margin: 194px 66px; */
+  margin: 0 auto;
 }
 
-.sectionTitle {
+/* Header styling */
+.level-header {
   border-radius: 8px;
   padding: 20px 40px;
-  width: 1280px;
-  height: 98px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.sectionTitle h1 {
+.level-header h1 {
   color: #1B0749;
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 40px;
   line-height: 125%;
   margin: 0;
 }
 
-.cards {
+/* Cards wrapper */
+.level-cards {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 50px;
-  margin-top: 60px;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
 }
 
-.card {
+/* Individual card */
+.level-card {
   background: white;
-  border: 3px;
+  border: 3px solid transparent;
   border-radius: 10px;
   width: 300px;
   height: 400px;
@@ -49,49 +50,32 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card.easy {
-  background-color: #683ece;
-}
-
-.card.medium {
-  background-color: #280E67;
-}
-
-.card.hard {
-  background-color: #10062A
-}
-
-
-.card h2 {
+.level-card h2 {
   margin: 10px 0;
   color: #FFF;
-  font-size: 24px;
+  font-size: 40px;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0%;
 }
 
-.card p {
-  font-size: 18px;
+.level-card p {
+  font-size: 22px;
   color: #FFF;
   margin-bottom: 15px;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0%;
 }
 
-.card button {
+/* Button */
+.level-card button {
   width: 249px;
   height: 56px;
-  background-color: #fff;
-  color: #443D7C;
+  background-color: #FFF;
+  color: #442D7C;
   padding: 8px 32px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  gap: 8px;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -99,110 +83,125 @@
   font-size: 18px;
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  line-height: 125%;
-  letter-spacing: 0%;
+}
+
+/* Hover effect */
+.level-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  background-color: #764ED7;
 }
 
 
-.card:hover button {
+
+.level-card:hover button {
   opacity: 1;
   transform: translateY(0);
 }
 
+/* Card colors */
+.level-card.level-easy {
+  background-color: #683ECE;
+}
 
+.level-card.level-medium {
+  background-color: #280E67;
+}
 
-/* Tablet View (768px - 1199px) */
+.level-card.level-hard {
+  background-color: #10062A;
+}
+
+/* Responsive - Tablet (768px – 1199px) */
 @media (max-width: 1199px) {
-  .container {
+  .level-container {
     padding: 0 20px;
   }
 
-  .sectionText {
-    width: 100%;
-    height: auto;
-    padding: 20px;
+  .level-header h1 {
+    font-size: 36px;
   }
 
-  .sectionText h1 {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .cards {
-    flex-wrap: wrap;
-    gap: 30px;
+  .level-cards {
     justify-content: center;
+    gap: 30px;
   }
 
-  .card {
+  .level-card {
     width: 45%;
     height: auto;
-    padding: 20px;
   }
 
-  .card button {
+  .level-card button {
     width: 90%;
     height: 48px;
     font-size: 16px;
   }
 }
 
-/* Mobile View (≤ 768px) */
+/* Responsive - Mobile (≤768px) */
 @media (max-width: 768px) {
-  .sectionText h1 {
-    font-size: 24px;
+  .level-header {
+    padding: 20px;
+    flex-direction: column;
   }
 
-  .cards {
+  .level-header h1 {
+    font-size: 40px;
+  }
+
+  .level-cards {
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
 
-  .card {
-    width: 100%;
+  .level-card {
+    width: 300px;
     max-width: 340px;
-    height: auto;
+    height: 400px;
   }
 
-  .card h2 {
+  .level-card h2 {
     font-size: 20px;
   }
 
-  .card p {
+  .level-card p {
     font-size: 16px;
   }
 
-  .card button {
+  .level-card button {
     width: 100%;
     font-size: 16px;
     height: 48px;
   }
 }
 
-/* Mobile Small View (≤ 480px) */
+/* Small Mobile (≤480px) */
 @media (max-width: 480px) {
-  .sectionText {
+
+     .level-container {
+    padding-bottom: 120px;
+  }
+  .level-header h1 {
+    font-size: 24px;
+  }
+
+  .level-card {
     padding: 16px;
+    width: 300px;
+    height: 300px;
   }
 
-  .sectionText h1 {
-    font-size: 20px;
+  .level-card h2 {
+    font-size: 40px;
   }
 
-  .card {
-    padding: 16px;
+  .level-card p {
+    font-size: 22px;
   }
 
-  .card h2 {
-    font-size: 18px;
-  }
-
-  .card p {
-    font-size: 15px;
-  }
-
-  .card button {
+  .level-card button {
     font-size: 15px;
     height: 44px;
   }
