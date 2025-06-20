@@ -2,16 +2,23 @@ import { FcGoogle } from "react-icons/fc";
 import { ImFacebook } from "react-icons/im";
 import { useState } from "react";
 import styles from "./login.module.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import "react-toastify/dist/ReactToastify.css";
+
 
 export default function SignUp() {
   const [fullName, setfullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
 
   const [fullNameError, setfullNameError] = useState("");
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
+
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -50,7 +57,18 @@ export default function SignUp() {
       };
       localStorage.setItem("user", JSON.stringify(userData));
 
-      alert("Sign up successful!");
+      toast.success("Sign up successful!");
+      setTimeout(() => {
+        navigate("/login");
+      }, 2000); 
+    }
+  };
+
+  const togglePassword = () => {
+    if (showPassword === true) {
+      setShowPassword(false);
+    } else {
+      setShowPassword(true);
     }
   };
 
@@ -127,12 +145,27 @@ export default function SignUp() {
               )}
 
               <label>Password</label>
-              <input
-                placeholder="Password"
-                type="text"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
+              <div style={{ position: "relative" }}>
+                <input
+                  placeholder="Password"
+                  type={showPassword ? "text" : "password"}
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+                <span
+                  onClick={togglePassword}
+                  style={{
+                    position: "absolute",
+                    right: "10px",
+                    top: "50%",
+                    transform: "translateY(-50%)",
+                    cursor: "pointer",
+                    color: "#666",
+                  }}
+                >
+                  {showPassword ? <FaEyeSlash /> : <FaEye />}
+                </span>
+              </div>
               {passwordError && (
                 <small style={{ color: "red" }}>{passwordError}</small>
               )}
@@ -154,7 +187,7 @@ export default function SignUp() {
                 <FcGoogle />
               </p>
               <p id="facebook">
-                <ImFacebook />
+                <ImFacebook style={{ color: "#1976D2" }} />
               </p>
             </div>
             <div className={styles.account}>
@@ -164,6 +197,7 @@ export default function SignUp() {
           </div>
         </div>
       </div>
+      <ToastContainer position="top-right" autoClose={3000} />
     </div>
   );
 }
