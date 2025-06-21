@@ -8,15 +8,15 @@ import {
 } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import QuizPage from "./ui/QuizPage";
-import RootLayout from "./layouts/RootLayout";
-// import Home from "./ui/Home";
-import Hero from "./ui/Hero";
+// import RootLayout from "./layouts/RootLayout";
+
+import Home from "./ui/Home";
 
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
-        <Route index element={<Hero/>} />
+        <Route index element={<Home/>} />
         <Route path="signup" element={<SignUp />} />
         <Route path="login" element={<Login />} />
         <Route path="dashboard" element={<Dashboard />} />
