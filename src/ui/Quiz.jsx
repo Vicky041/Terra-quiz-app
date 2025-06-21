@@ -111,6 +111,7 @@ const Quiz = () => {
                 correct: q.answer,
                 selected: q.selected,
               }))}
+              onRestart={restartQuiz}
             />
           ) : (
             <ResultPanel

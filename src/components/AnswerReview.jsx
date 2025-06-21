@@ -1,7 +1,16 @@
 import PropTypes from "prop-types";
+import { useNavigate } from "react-router-dom";
 import "../styles/AnswerReview.css";
+import Button from "./Button";
 
-const AnswerReview = ({ answers }) => {
+const AnswerReview = ({ answers, onRestart }) => {
+  const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    onRestart();
+    navigate("/dashboard");
+  };
+
   return (
     <div className="answer-review">
       <h2>Answer Review</h2>
@@ -16,6 +25,12 @@ const AnswerReview = ({ answers }) => {
           <p>Correct Answer: <strong>{item.correct}</strong></p>
         </div>
       ))}
+
+      <div className="review-button-container">
+        <Button onClick={handleGoBack} primary>
+          Back to Dashboard
+        </Button>
+      </div>
     </div>
   );
 };
@@ -28,6 +43,7 @@ AnswerReview.propTypes = {
       selected: PropTypes.string,
     })
   ).isRequired,
+  onRestart: PropTypes.func.isRequired,
 };
 
 export default AnswerReview;

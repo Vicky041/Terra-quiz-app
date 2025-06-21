@@ -1,5 +1,6 @@
 .answer-review {
   padding: 1rem;
+  font-family: "Rubik", sans-serif;
 }
 
 .review-card {
@@ -15,4 +16,16 @@
 
 .wrong {
   color: red;
+}
+
+.review-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.review-button-container button {
+  width: 100%;
+  max-width: 300px;
 }
