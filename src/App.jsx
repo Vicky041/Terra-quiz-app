@@ -1,5 +1,5 @@
-import Login from "./auth/login";
-import SignUp from "./auth/signup";
+import Login from "./ui/LoginPage";
+import SignUp from "./ui/SignupPage";
 import {
   Route,
   createBrowserRouter,
@@ -25,7 +25,5 @@ export default function App() {
     )
   );
 
-  return (
-    <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 }

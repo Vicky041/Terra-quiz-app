@@ -1,14 +1,12 @@
 import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { ImFacebook } from "react-icons/im";
-import styles from "./login.module.css";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-
 import { Link } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "../styles/Auth.css";
 
-// import quizzyLogo from "../assets/quizzy.png";
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -42,16 +40,16 @@ export default function Login() {
   };
 
   return (
-    <div className={styles.container}>
-      <div className={styles.middle}>
-        <div className={styles.section1}>
+    <div className={"auth-container"}>
+      <div className={"auth-middle"}>
+        <div className={"auth-section1"}>
           <div>
-            <div className={styles.param1}>
+            <div className={"auth-param1"}>
               <img src="src/assets/quizzyPurple.png" />
             </div>
 
             <div>
-              <div className={styles.secImg}>
+              <div className={"auth-secImg"}>
                 <img src="src/assets/login.png" />
                 <p style={{ fontSize: 20 }}>
                   Take a Quiz and increase your knowledge
@@ -83,16 +81,26 @@ export default function Login() {
           </div>
         </div>
 
-        <div className={styles.section2}>
-          <div className={styles.param}>
+        <div className={"auth-section2"}>
+          <div className={"auth-param"}>
             <p>Welcome to quizzy</p>
             <h4>Log in</h4>
           </div>
 
-          <div className={styles.form}>
-            <form onSubmit={handleLogin}>
-              <label>Email or Phone Number</label>
+          <div className={"auth-form1"}>
+            <form className={"auth-form"} onSubmit={handleLogin}>
+              {/* <TextInput
+                title={"Email or Phone Number"}
+                holder={"Email or Phone Number"}
+                val={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+              /> */}
+
+              <label className={"auth-label"}>Email or Phone Number</label>
               <input
+                className={"auth-input"}
                 placeholder="Email or Phone Number "
                 type="text"
                 value={email}
@@ -100,12 +108,12 @@ export default function Login() {
                   setEmail(e.target.value);
                 }}
               />
-              <label>Password</label>
+              <label className={"auth-label"}>Password</label>
 
               <div style={{ position: "relative" }}>
                 <input
+                  className={"auth-input"}
                   placeholder="Password"
-                  //type="text"
                   type={showPassword ? "text" : "password"}
                   value={password}
                   onChange={(e) => {
@@ -133,16 +141,16 @@ export default function Login() {
                 </small>
               )}
 
-              <button>Log In</button>
+              <button className={"auth-button"}>Log In</button>
             </form>
           </div>
 
-          <div className={styles.signin}>
-            <div className={styles.sign}>
-              <p>OR</p>
-              <h6>Sign In With</h6>
+          <div className={"auth-signin"}>
+            <div className={"auth-sign"}>
+              <p className={"auth-sign-p"}>OR</p>
+              <h6 className={"auth-sign-h6"}>Sign In With</h6>
             </div>
-            <div className={styles.icons}>
+            <div className={"auth-icons"}>
               <p>
                 {" "}
                 <FcGoogle />
@@ -151,9 +159,11 @@ export default function Login() {
                 <ImFacebook style={{ color: "#1976D2" }} />
               </p>
             </div>
-            <div className={styles.account}>
+            <div className={"auth-account"}>
               <p>Don’t have an account? </p>
-              <Link to="/signup">Sign Up</Link>
+              <Link className={"auth-account-a"} to="/signup">
+                Sign Up
+              </Link>
             </div>
           </div>
         </div>
@@ -162,3 +172,18 @@ export default function Login() {
     </div>
   );
 }
+
+// export function TextInput({ title, holder, val, onChange }) {
+//   return (
+//     <div>
+//       <label className={"label"}>{title}</label>
+//       <input
+//         input
+//         placeholder={holder}
+//         type="text"
+//         value={val}
+//         onChange={onChange}
+//       />
+//     </div>
+//   );
+// }
