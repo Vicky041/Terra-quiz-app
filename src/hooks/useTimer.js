@@ -1,16 +1,26 @@
-import { useContext } from "react";
+import { useCallback, useContext } from "react";
 import { TimerContext } from "../contexts/timerReducer";
 
 export const useTimer = () => {
-    const { state, dispatch } = useContext(TimerContext);
+  const { state, dispatch } = useContext(TimerContext);
 
-  const resetTimer = () => {
+  const resetTimer = useCallback(() => {
     dispatch({ type: "RESET_TIMER" });
-  };
+  }, [dispatch]);
+
+  const pauseTimer = useCallback(() => {
+    dispatch({ type: "PAUSE_TIMER" });
+  }, [dispatch]);
+
+  const startTimer = useCallback(() => {
+    dispatch({ type: "RESUME_TIMER" });
+  }, [dispatch]);
 
   return {
     ...state,
     dispatch,
     resetTimer,
+    pauseTimer,
+    startTimer,
   };
-}
+};

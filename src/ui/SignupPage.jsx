@@ -1,12 +1,12 @@
 import { FcGoogle } from "react-icons/fc";
 import { ImFacebook } from "react-icons/im";
 import { useState } from "react";
-import styles from "./login.module.css";
+
+import "../styles/Auth.css";
 import { Link, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import "react-toastify/dist/ReactToastify.css";
-
 
 export default function SignUp() {
   const [fullName, setfullName] = useState("");
@@ -60,7 +60,7 @@ export default function SignUp() {
       toast.success("Sign up successful!");
       setTimeout(() => {
         navigate("/login");
-      }, 2000); 
+      }, 2000);
     }
   };
 
@@ -73,18 +73,17 @@ export default function SignUp() {
   };
 
   return (
-    <div className={styles.container}>
-      <div className={styles.middle}>
-        <div className={styles.section1}>
+    <div className={"auth-container"}>
+      <div className={"auth-middle"}>
+        <div className={"auth-section1"}>
           <div>
-            <div className={styles.param1}>
+            <div className={"auth-param1"}>
               <img src="src/assets/quizzyPurple.png" />
-              
             </div>
 
             <div>
-              <div className={styles.secImg}>
-              <img src="src/assets/login.png" />
+              <div className={"auth-secImg"}>
+                <img src="src/assets/login.png" />
                 <p style={{ fontSize: 20 }}>
                   Take a Quiz and increase your knowledge
                 </p>
@@ -115,16 +114,17 @@ export default function SignUp() {
           </div>
         </div>
 
-        <div className={styles.section2}>
-          <div className={styles.param}>
+        <div className={"auth-section2"}>
+          <div className={"auth-param"}>
             <p style={{ fontSize: "2.2rem" }}>Welcome to quizzy</p>
             <h4>Create an Account</h4>
           </div>
 
-          <div className={styles.form}>
-            <form onSubmit={handleSubmit}>
-              <label>Full Name</label>
+          <div className={"auth-form1"}>
+            <form className={"auth-form"} onSubmit={handleSubmit}>
+              <label className={"auth-label"}>Full Name</label>
               <input
+                className={"auth-input"}
                 placeholder="Full Name"
                 type="text"
                 value={fullName}
@@ -134,8 +134,9 @@ export default function SignUp() {
                 <small style={{ color: "red" }}>{fullNameError}</small>
               )}
 
-              <label>Email or Phone Number</label>
+              <label className={"auth-label"}>Email or Phone Number</label>
               <input
+                className={"auth-input"}
                 placeholder="Email or Phone Number"
                 type="text"
                 value={email}
@@ -145,9 +146,10 @@ export default function SignUp() {
                 <small style={{ color: "red" }}>{emailError}</small>
               )}
 
-              <label>Password</label>
+              <label className={"auth-label"}>Password</label>
               <div style={{ position: "relative" }}>
                 <input
+                  className={"auth-input"}
                   placeholder="Password"
                   type={showPassword ? "text" : "password"}
                   value={password}
@@ -171,18 +173,22 @@ export default function SignUp() {
                 <small style={{ color: "red" }}>{passwordError}</small>
               )}
 
-              <button type="submit" style={{ marginTop: "20px" }}>
+              <button
+                type="submit"
+                className={"auth-button"}
+                
+              >
                 Sign Up
               </button>
             </form>
           </div>
 
-          <div className={styles.signin}>
-            <div className={styles.sign}>
-              <p>OR</p>
-              <h6>Sign In With</h6>
+          <div className={"auth-signin"}>
+            <div className={"auth-sign"}>
+              <p className={"auth-sign-p"}>OR</p>
+              <h6 className={"auth-sign-h6"}>Sign In With</h6>
             </div>
-            <div className={styles.icons}>
+            <div className={"auth-icons"}>
               <p>
                 {" "}
                 <FcGoogle />
@@ -191,9 +197,11 @@ export default function SignUp() {
                 <ImFacebook style={{ color: "#1976D2" }} />
               </p>
             </div>
-            <div className={styles.account}>
+            <div className={"auth-account"}>
               <p>Don’t have an account? </p>
-              <Link to="/login">Log In</Link>
+              <Link className={"auth-account-a"} to="/login">
+                Log In
+              </Link>
             </div>
           </div>
         </div>

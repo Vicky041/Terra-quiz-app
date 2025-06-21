@@ -24,16 +24,16 @@
 
 .hero-container p {
   color: #b5a9bb;
-  line-height: 1.5;
 }
 
 .hero-content {
   max-width: 600px;
+  font-family: "Rubik", sans-serif;
+  margin-block: 50px;
 }
 
 .hero-content p {
   margin-bottom: 1rem;
-  
 }
 
 .hero-content h1 {
@@ -68,19 +68,21 @@
   color: #442d7c;
 }
 
+.about-quizy span {
+  font-family: "Rubik", sans-serif;
+}
+
 .about-quizy h2 img {
   width: 85%;
   margin-top: 6px;
 }
-
-
-
 
 /* ================= TABLET VIEW (≤768px) ================= */
 
 @media only screen and (max-width: 768px) {
   .hero-container {
     grid-template-columns: 1fr;
+    padding: 2rem 0;
   }
 
   .hero-content {

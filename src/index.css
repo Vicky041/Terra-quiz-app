@@ -13,6 +13,7 @@
   --clr-text: #1B0749;
   --clr-text-light: #442D7C66;
   --clr-background: #FFFFFF;
+  --clr-list-background: #F4F3F6;
 
   --fs-300: 12px;
   --fs-400: 14px;
@@ -39,6 +40,10 @@ body {
   font-family:  var(--ff-body);
   background-color: #f0f0f0;
   color: #333;
+}
+
+ul {
+  list-style: none;
 }
 
 
@@ -113,26 +118,4 @@ a:hover {
 .error-fallback p {
   font-size: 1rem;
   margin-top: 0;
-}
-
-
-/* Quiz Page Styles */
-
-.quiz-page-container {
-  max-width: 720px;
-  margin: 40px auto;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  background-color: #f7f9fc;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-@media (max-width: 768px) {
-  .quiz-page-container {
-    margin: 20px 10px;
-    padding: 0 10px;
-  }
 }

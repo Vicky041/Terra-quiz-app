@@ -17,13 +17,28 @@ export const initialQuizState = {
 export const quizReducer = (state, action) => {
   switch (action.type) {
     case "LOAD_QUESTIONS":
-      return { ...state, questions: action.payload };
+      return {
+        ...state,
+        questions: action.payload,
+        currentIndex: 0,
+        showResult: false,
+        selectedAnswer: null,
+        score: 0,
+      };
     case "ANSWER_QUESTION": {
-      const currentQuestion = state.questions[state.currentIndex];
+      const currentIndex = state.currentIndex;
+      const currentQuestion = state.questions[currentIndex];
       const isCorrect = action.payload === currentQuestion.answer;
 
+      // ✅ update questions array to store selection
+      const updatedQuestions = [...state.questions];
+      updatedQuestions[currentIndex] = {
+        ...currentQuestion,
+        selected: action.payload,
+      };
+
       const updatedUserAnswers = [...state.userAnswers];
-      updatedUserAnswers[state.currentIndex] = {
+      updatedUserAnswers[currentIndex] = {
         question: currentQuestion.question,
         selectedAnswer: action.payload,
         correctAnswer: currentQuestion.answer,
@@ -32,11 +47,13 @@ export const quizReducer = (state, action) => {
 
       return {
         ...state,
+        questions: updatedQuestions, // 👈 update questions state
         selectedAnswer: action.payload,
         score: isCorrect ? state.score + 1 : state.score,
         userAnswers: updatedUserAnswers,
       };
     }
+
     case "NEXT_QUESTION": {
       const isLast = state.currentIndex + 1 === state.questions.length;
       return {
@@ -46,6 +63,12 @@ export const quizReducer = (state, action) => {
         showResult: isLast,
       };
     }
+    case "PREVIOUS_QUESTION":
+      return {
+        ...state,
+        currentIndex: Math.max(0, state.currentIndex - 1),
+        selectedAnswer: state.userAnswers[state.currentIndex - 1] || null,
+      };
     case "SUBMIT_QUIZ": {
       const attempt = {
         id: Date.now(),

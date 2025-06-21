@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 // import "../index.css";
-import "../styles/Navbar2.css";
+import "../styles/Navbar.css";
 import logo from "../assets/quizzy.png";
 
 export default function Navbar({ links = [], isUser = true }) {
