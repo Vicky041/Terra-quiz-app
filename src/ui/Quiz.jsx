@@ -2,16 +2,17 @@ import { useEffect, useState } from "react";
 import { useQuiz } from "../hooks/useQuiz";
 import { useQuizFilter } from "../hooks/useQuizFilter";
 import { useTimer } from "../hooks/useTimer";
+import { useNavigate } from "react-router-dom";
 
-import QuestionCard from "./QuestionCard";
-import ResultPanel from "./ResultPanel";
+import QuestionCard from "../components/QuestionCard";
+import ResultPanel from "../components/ResultPanel";
+import AnswerReview from "../components/AnswerReview";
+import Button from "../components/Button";
+import ProgressBar from "../components/ProgressBar";
+
 import "../styles/QuizPage.css";
 
 import { getRandomQuestions } from "../utils/getRandomQuestions";
-import { useNavigate } from "react-router-dom";
-import AnswerReview from "./AnswerReview";
-import Button from "./Button";
-import ProgressBar from "./ProgressBar";
 
 const Quiz = () => {
   const navigate = useNavigate();
@@ -101,24 +102,26 @@ const Quiz = () => {
     };
 
     return (
-      <div className="quiz-wrapper">
-        {showReview ? (
-          <AnswerReview
-            answers={questions.map((q) => ({
-              question: q.question,
-              correct: q.answer,
-              selected: q.selected,
-            }))}
-          />
-        ) : (
-          <ResultPanel
-            score={result.score}
-            total={result.total}
-            onRestart={restartQuiz}
-            onViewAnswers={handleAnswerReview}
-            subject={subject}
-          />
-        )}
+      <div className="quiz-container">
+        <div>
+          {showReview ? (
+            <AnswerReview
+              answers={questions.map((q) => ({
+                question: q.question,
+                correct: q.answer,
+                selected: q.selected,
+              }))}
+            />
+          ) : (
+            <ResultPanel
+              score={result.score}
+              total={result.total}
+              onRestart={restartQuiz}
+              onViewAnswers={handleAnswerReview}
+              subject={subject}
+            />
+          )}
+        </div>
       </div>
     );
   }
@@ -126,35 +129,37 @@ const Quiz = () => {
   const currentQuestion = questions[currentIndex];
 
   return (
-    <div className="quiz-wrapper">
-      <QuestionCard
-        subject={subject}
-        question={currentQuestion.question}
-        options={currentQuestion.options}
-        currentIndex={currentIndex}
-        handleAnswer={handleAnswer}
-        selectedAnswer={selectedAnswer}
-      />
-      <div className="question-navigation">
-        {currentIndex > 0 && (
-          <Button
-            onClick={() => dispatch({ type: "PREVIOUS_QUESTION" })}
-            secondary
-          >
-            Previous
-          </Button>
-        )}
+    <div className="quiz-container">
+      <div>
+        <QuestionCard
+          subject={subject}
+          question={currentQuestion.question}
+          options={currentQuestion.options}
+          currentIndex={currentIndex}
+          handleAnswer={handleAnswer}
+          selectedAnswer={selectedAnswer}
+        />
+        <div className="question-navigation">
+          {currentIndex > 0 && (
+            <Button
+              onClick={() => dispatch({ type: "PREVIOUS_QUESTION" })}
+              secondary
+            >
+              Previous
+            </Button>
+          )}
 
-        <Button
-          onClick={nextQuestion}
-          disabled={!selectedAnswer}
-          primary={currentIndex + 1 !== questions.length}
-          submit={currentIndex + 1 === questions.length}
-        >
-          {currentIndex + 1 === questions.length ? "Submit" : "Next"}
-        </Button>
+          <Button
+            onClick={nextQuestion}
+            disabled={!selectedAnswer}
+            primary={currentIndex + 1 !== questions.length}
+            submit={currentIndex + 1 === questions.length}
+          >
+            {currentIndex + 1 === questions.length ? "Submit" : "Next"}
+          </Button>
+        </div>
+        <ProgressBar current={currentIndex} total={questions.length} />
       </div>
-      <ProgressBar current={currentIndex} total={questions.length} />
     </div>
   );
 };

@@ -7,13 +7,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
-import QuizPage from "./ui/QuizPage";
+import Quiz from "./ui/Quiz";
 import Home from "./ui/Home";
 import DashboardWelcome from "./ui/DashboardWelcome";
 import DashboardSubject from "./ui/DashboardSubject";
 import DashboardLevel from "./ui/DashboardLevel";
 import RootLayout from "./layout/RootLayout";
-import Quiz from "./components/Quiz";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -26,7 +25,7 @@ export default function App() {
           <Route index element={<DashboardWelcome />} />
           <Route path="subject" element={<DashboardSubject />} />
           <Route path="level" element={<DashboardLevel />} />
-          <Route path="quiz" element={<QuizPage />} />
+          <Route path="quiz" element={<Quiz />} />
         </Route>
       </Route>
     )

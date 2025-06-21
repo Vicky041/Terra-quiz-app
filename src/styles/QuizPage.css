@@ -17,11 +17,13 @@
 
 /* QuizPage.css or separate Quiz.css */
 
-.quiz-wrapper {
-  max-width: 80%;
-  margin: 25px auto;
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   padding: 20px;
-  background-color: #fff;
 }
 
 .error {

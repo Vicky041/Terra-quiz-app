@@ -119,25 +119,3 @@ a:hover {
   font-size: 1rem;
   margin-top: 0;
 }
-
-
-/* Quiz Page Styles */
-
-.quiz-page-container {
-  max-width: 720px;
-  margin: 40px auto;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  background-color: #f7f9fc;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-@media (max-width: 768px) {
-  .quiz-page-container {
-    margin: 20px 10px;
-    padding: 0 10px;
-  }
-}
