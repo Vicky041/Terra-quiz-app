@@ -13,7 +13,6 @@ import DashboardWelcome from "./ui/DashboardWelcome";
 import DashboardSubject from "./ui/DashboardSubject";
 import DashboardLevel from "./ui/DashboardLevel";
 import RootLayout from "./layout/RootLayout";
-
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -30,6 +29,5 @@ export default function App() {
       </Route>
     )
   );
-
   return <RouterProvider router={router} />;
 }

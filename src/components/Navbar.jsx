@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/Navbar2.css";
+// import "../index.css";
+import "../styles/Navbar.css";
 import logo from "../assets/quizzy.png";
 
-const Navbar = ({ links = [], isUser = false }) => {
+export default function Navbar({ links = [], isUser = true }) {
   const [menuOpen, setMenuOpen] = useState(false);
-  
+
   return (
     <header className="navbar">
       <div className="wrapper navbar__container">
@@ -81,58 +82,4 @@ const Navbar = ({ links = [], isUser = false }) => {
       </div>
     </header>
   );
-
-  // return (
-  //   <header className="navbar">
-  //     <div className="wrapper navbar__container">
-  //       <div className="navbar__logo">
-  //         <NavLink to="/">
-  //           <img src={logo} alt="Logo" />
-  //         </NavLink>
-  //       </div>
-
-  //       <nav className={`navbar__links ${menuOpen ? "open" : ""}`}>
-  //         <div className="navbar__links-left">
-  //           <ul>
-  //             {links.map((link, index) => (
-  //               <li key={index}>
-  //                 <NavLink to={link.to} onClick={() => setMenuOpen(false)}>
-  //                   {link.label}
-  //                 </NavLink>
-  //               </li>
-  //             ))}
-  //           </ul>
-  //         </div>
-
-  //         <div className="navbar__links-right">
-  //           {isUser ? (
-  //             <p>User is logged in</p>
-  //           ) : (
-  //             <div>
-  //               <NavLink to="/login" onClick={() => setMenuOpen(false)}>
-  //                 Login
-  //               </NavLink>
-  //               <button onClick={() => setMenuOpen(false)}>Take a Quiz</button>
-  //             </div>
-  //           )}
-  //         </div>
-  //       </nav>
-
-  //       {/* Optional: hamburger menu for mobile */}
-  //       {/* 
-  //       <button
-  //         className={`hamburger ${menuOpen ? "open" : ""}`}
-  //         onClick={() => setMenuOpen(!menuOpen)}
-  //         aria-label="Toggle menu"
-  //       >
-  //         <span />
-  //         <span />
-  //         <span />
-  //       </button> 
-  //       */}
-  //     </div>
-  //   </header>
-  // );
 };
-
-export default Navbar;
