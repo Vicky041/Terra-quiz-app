@@ -1,16 +1,24 @@
-import PropTypes from 'prop-types';
-import "../styles/QuestionCard.css"
+import PropTypes from "prop-types";
+import "../styles/QuestionCard.css";
+import TimerDisplay from "./TimerDisplay";
 
-const QuestionCard = ({ question, options, currentIndex, handleAnswer, selectedAnswer }) => {
+const QuestionCard = ({
+  question,
+  options,
+  handleAnswer,
+  selectedAnswer,
+  subject,
+}) => {
   return (
     <div className="question-card">
-      <h2>Question {currentIndex + 1}</h2>
-      <p>{question}</p>
+      <span>{subject} Quiz</span>
+      <TimerDisplay />
+      <h3>{question}</h3>
       <ul>
         {options.map((option, index) => (
           <li
             key={index}
-            className={`option ${selectedAnswer === option ? 'selected' : ''}`}
+            className={`option ${selectedAnswer === option ? "selected" : ""}`}
             onClick={() => handleAnswer(option)}
           >
             {option}
@@ -24,9 +32,9 @@ const QuestionCard = ({ question, options, currentIndex, handleAnswer, selectedA
 QuestionCard.propTypes = {
   question: PropTypes.string.isRequired,
   options: PropTypes.array.isRequired,
-  currentIndex: PropTypes.number.isRequired,
   handleAnswer: PropTypes.func.isRequired,
-  selectedAnswer: PropTypes.string
+  selectedAnswer: PropTypes.string,
+  subject: PropTypes.string.isRequired,
 };
 
 export default QuestionCard;

@@ -1,0 +1,18 @@
+.answer-review {
+  padding: 1rem;
+}
+
+.review-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}

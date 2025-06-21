@@ -1,12 +1,21 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useQuiz } from "../hooks/useQuiz";
+import { useQuizFilter } from "../hooks/useQuizFilter";
 import { useTimer } from "../hooks/useTimer";
+
 import QuestionCard from "./QuestionCard";
 import ResultPanel from "./ResultPanel";
-import HistoryPanel from "./HistoryPanel";
 import "../styles/QuizPage.css";
 
+import { getRandomQuestions } from "../utils/getRandomQuestions";
+import { useNavigate } from "react-router-dom";
+import AnswerReview from "./AnswerReview";
+import Button from "./Button";
+import ProgressBar from "./ProgressBar";
+
 const Quiz = () => {
+  const navigate = useNavigate();
+
   const {
     questions,
     currentIndex,
@@ -18,29 +27,63 @@ const Quiz = () => {
     latestResult,
   } = useQuiz();
 
-  const { isTimeUp, resetTimer } = useTimer();
+  const [showReview, setShowReview] = useState(false);
+
+  const { selectedLevel, selectedSubject } = useQuizFilter();
+
+  const { subject } = selectedSubject || {};
+
+  const { isTimeUp, resetTimer, pauseTimer, startTimer } = useTimer();
 
   useEffect(() => {
     if (isTimeUp && !showResult) {
       dispatch({ type: "SUBMIT_QUIZ" });
+      pauseTimer();
     }
-  }, [isTimeUp, showResult, dispatch]);
+  }, [isTimeUp, showResult, dispatch, pauseTimer]);
+
+  useEffect(() => {
+    if (showResult) {
+      pauseTimer();
+    }
+  }, [showResult, pauseTimer]);
+
+  useEffect(() => {
+    if (questions.length === 0 && selectedLevel?.questions?.length > 0) {
+      const random = getRandomQuestions(selectedLevel.questions, 10);
+      dispatch({ type: "LOAD_QUESTIONS", payload: random });
+
+      resetTimer();
+      startTimer();
+    }
+  }, [questions.length, selectedLevel, dispatch, resetTimer, startTimer]);
 
   const handleAnswer = (answer) => {
     dispatch({ type: "ANSWER_QUESTION", payload: answer });
   };
 
   const nextQuestion = () => {
-    dispatch({ type: "NEXT_QUESTION" });
+    if (currentIndex + 1 === questions.length) {
+      dispatch({ type: "SUBMIT_QUIZ" });
+      pauseTimer();
+    } else {
+      dispatch({ type: "NEXT_QUESTION" });
+    }
   };
 
   const restartQuiz = () => {
+    navigate("/dashboard");
     dispatch({ type: "RESTART_QUIZ" });
     resetTimer();
+    startTimer();
+  };
+
+  const handleAnswerReview = () => {
+    console.log("clicked review");
+    setShowReview(true);
   };
 
   if (error) {
-    console.error("Quiz error:", error);
     return (
       <div className="error">
         <h2>Something went wrong.</h2>
@@ -48,28 +91,34 @@ const Quiz = () => {
       </div>
     );
   }
+
   if (!questions.length) return <p>Loading questions...</p>;
 
   if (showResult) {
-    const result = latestResult
-      ? {
-          score: latestResult.score,
-          total: latestResult.total,
-        }
-      : {
-          score,
-          total: questions.length,
-        };
+    const result = latestResult || {
+      score,
+      total: questions.length,
+    };
 
     return (
       <div className="quiz-wrapper">
-        <h2>{latestResult ? "Past Result" : "Your Result"}</h2>
-        <ResultPanel
-          score={result.score}
-          total={result.total}
-          onRestart={restartQuiz}
-        />
-        <HistoryPanel />
+        {showReview ? (
+          <AnswerReview
+            answers={questions.map((q) => ({
+              question: q.question,
+              correct: q.answer,
+              selected: q.selected,
+            }))}
+          />
+        ) : (
+          <ResultPanel
+            score={result.score}
+            total={result.total}
+            onRestart={restartQuiz}
+            onViewAnswers={handleAnswerReview}
+            subject={subject}
+          />
+        )}
       </div>
     );
   }
@@ -79,15 +128,33 @@ const Quiz = () => {
   return (
     <div className="quiz-wrapper">
       <QuestionCard
+        subject={subject}
         question={currentQuestion.question}
         options={currentQuestion.options}
         currentIndex={currentIndex}
         handleAnswer={handleAnswer}
         selectedAnswer={selectedAnswer}
       />
-      <button onClick={nextQuestion} disabled={!selectedAnswer}>
-        {currentIndex + 1 === questions.length ? "Submit" : "Next"}
-      </button>
+      <div className="question-navigation">
+        {currentIndex > 0 && (
+          <Button
+            onClick={() => dispatch({ type: "PREVIOUS_QUESTION" })}
+            secondary
+          >
+            Previous
+          </Button>
+        )}
+
+        <Button
+          onClick={nextQuestion}
+          disabled={!selectedAnswer}
+          primary={currentIndex + 1 !== questions.length}
+          submit={currentIndex + 1 === questions.length}
+        >
+          {currentIndex + 1 === questions.length ? "Submit" : "Next"}
+        </Button>
+      </div>
+      <ProgressBar current={currentIndex} total={questions.length} />
     </div>
   );
 };
