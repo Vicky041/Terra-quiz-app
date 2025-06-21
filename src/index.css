@@ -83,7 +83,7 @@ a:hover {
 /* Container for the whole app */
 .app-container {
   min-height: 100vh;
-  background: #fff; /* subtle light blue background */
+  background: #fff; 
   display: flex;
   justify-content: center;
   align-items: center;

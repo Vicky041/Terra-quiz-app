@@ -1,6 +1,23 @@
+import Navbar from "../components/Navbar";
+import Hero from "./Hero";
+
+
+
+
+
+
 const Home = () => {
   return (
-    <h1>Home</h1>
+    <>
+      <Navbar links={[
+          { to: "/home", label: "Home" },
+          { to: "/about", label: "About" },
+          { to: "/features", label: "Features" },
+        ]}
+        isUser={false}
+      />
+      <Hero/>
+    </>
   )
 }
 

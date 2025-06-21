@@ -7,9 +7,9 @@
   box-sizing: border-box;
 } */
 
-html {
+/* html {
   font-size: 62.5%;
-}
+} */
 
 /* body {
   font-family: sans-serif;
@@ -20,8 +20,9 @@ html {
 } */
 
 /* .app {
+    
   height: 100%;
-} */
+}
 
 .header {
   width: 100%;
@@ -46,9 +47,9 @@ html {
 
 .logo_box img {
   width: 100%;
-}
+} */
 
-.nav {
+/* .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,9 +79,9 @@ nav ul li a {
 
 .menu-icon {
     position: relative;
-}
+} */
 
-.menu-icon, .menu-icon::before, .menu-icon::after {
+/* .menu-icon, .menu-icon::before, .menu-icon::after {
     width: 1.8rem;
     height: 3px;
     background-color: #e6f0ff;
@@ -114,16 +115,16 @@ nav ul li a {
 
 .hamburger {
   display: none;
-}
+} */
 
-.nav--buttons {
+/* .nav--buttons {
   display: block;
   font-size: 1rem;
 }
 
 .nav--links {
   display: block;
-}
+} */
 
 
 /* @media only screen and (max-width: 37.5em) {
@@ -132,7 +133,7 @@ nav ul li a {
   }
 } */
 
-@media only screen and (max-width: 37.5em) {
+/* @media only screen and (max-width: 37.5em) {
     .hamburger {
       display: block;
       cursor: pointer;
@@ -142,14 +143,14 @@ nav ul li a {
     .nav--buttons {
       display: none;
     }
-  }
+  } */
 
 /*  Hide hamburger on large screens */
-@media only screen and (min-width: 37.6em) {
+/* @media only screen and (min-width: 37.6em) {
     .hamburger {
       display: none;
     }
-  }
+  } */
 
 
 
@@ -159,7 +160,7 @@ nav ul li a {
   }
 } */
 
-@media only screen and (max-width: 37.5em) {
+/* @media only screen and (max-width: 37.5em) {
     .hamburger {
       display: block;
     }
@@ -177,7 +178,7 @@ nav ul li a {
   .hamburger {
     display: none;
   }
-}
+} */
 
 /* @media only screen and (max-width: 37.5em) {
   .hamburger {
@@ -185,7 +186,7 @@ nav ul li a {
   }
 }  */
 
-.dd__nav--buttons {
+/* .dd__nav--buttons {
   display: block;
   text-align: center;
   margin-top: 2rem;
@@ -212,12 +213,12 @@ nav ul li a {
     justify-content: space-between;
     align-items: end;
   }
-}
+} */
 
-@media only screen and (min-width: 112.5em) {
-  .dropdown {
+/* @media only screen and (min-width: 112.5em) { */
+  /* .dropdown { */
     /* display: block; */
-    height: calc(100vh - 8rem);
+    /* height: calc(100vh - 8rem);
     background-color: #fff;
     padding: 2rem 2rem 12rem 2rem;
 
@@ -249,4 +250,4 @@ nav ul li a {
   text-align: center;
   margin-top: 2rem;
   text-align: right;
-}
+} */
