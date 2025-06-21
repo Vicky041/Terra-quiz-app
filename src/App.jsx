@@ -1,7 +1,6 @@
-import Login from "./auth/login";
-import SignUp from "./auth/signup";
+import Login from "./ui/LoginPage";
+import SignUp from "./ui/SignupPage";
 import { Routes, Route } from "react-router-dom";
-
 
 export default function App() {
   return (
