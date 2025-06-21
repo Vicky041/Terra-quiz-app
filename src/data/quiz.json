@@ -1,6 +1,7 @@
 [
   {
     "subject": "Science",
+    "description": "Challenge your knowledge in physics, chemistry, and biology.",
     "subsubjects": [
       {
         "subsubject": "Biology",
@@ -22,34 +23,19 @@
               {
                 "id": 2,
                 "question": "Which organ helps in pumping blood?",
-                "options": [
-                  "Liver",
-                  "Kidneys",
-                  "Heart",
-                  "Lungs"
-                ],
+                "options": ["Liver", "Kidneys", "Heart", "Lungs"],
                 "answer": "Heart"
               },
               {
                 "id": 3,
                 "question": "Which gas is essential for respiration?",
-                "options": [
-                  "Nitrogen",
-                  "Carbon dioxide",
-                  "Hydrogen",
-                  "Oxygen"
-                ],
+                "options": ["Nitrogen", "Carbon dioxide", "Hydrogen", "Oxygen"],
                 "answer": "Oxygen"
               },
               {
                 "id": 4,
                 "question": "What is the basic unit of life?",
-                "options": [
-                  "Organ",
-                  "Cell",
-                  "Organism",
-                  "Tissue"
-                ],
+                "options": ["Organ", "Cell", "Organism", "Tissue"],
                 "answer": "Cell"
               },
               {
@@ -66,34 +52,19 @@
               {
                 "id": 6,
                 "question": "What part of the plant makes food?",
-                "options": [
-                  "Stem",
-                  "Root",
-                  "Leaf",
-                  "Flower"
-                ],
+                "options": ["Stem", "Root", "Leaf", "Flower"],
                 "answer": "Leaf"
               },
               {
                 "id": 7,
                 "question": "Which sense organ is used for seeing?",
-                "options": [
-                  "Nose",
-                  "Ear",
-                  "Eye",
-                  "Tongue"
-                ],
+                "options": ["Nose", "Ear", "Eye", "Tongue"],
                 "answer": "Eye"
               },
               {
                 "id": 8,
                 "question": "What is the liquid part of blood called?",
-                "options": [
-                  "Plasma",
-                  "Serum",
-                  "Hemoglobin",
-                  "Platelets"
-                ],
+                "options": ["Plasma", "Serum", "Hemoglobin", "Platelets"],
                 "answer": "Plasma"
               },
               {
@@ -110,56 +81,31 @@
               {
                 "id": 10,
                 "question": "Which organ removes waste from the blood?",
-                "options": [
-                  "Lung",
-                  "Kidney",
-                  "Liver",
-                  "Heart"
-                ],
+                "options": ["Lung", "Kidney", "Liver", "Heart"],
                 "answer": "Kidney"
               },
               {
                 "id": 11,
                 "question": "What is the color of chlorophyll?",
-                "options": [
-                  "Blue",
-                  "Red",
-                  "Green",
-                  "Yellow"
-                ],
+                "options": ["Blue", "Red", "Green", "Yellow"],
                 "answer": "Green"
               },
               {
                 "id": 12,
                 "question": "Which animal is known for changing its color?",
-                "options": [
-                  "Chameleon",
-                  "Frog",
-                  "Lizard",
-                  "Snake"
-                ],
+                "options": ["Chameleon", "Frog", "Lizard", "Snake"],
                 "answer": "Chameleon"
               },
               {
                 "id": 13,
                 "question": "What do bees collect from flowers?",
-                "options": [
-                  "Seeds",
-                  "Water",
-                  "Pollen",
-                  "Nectar"
-                ],
+                "options": ["Seeds", "Water", "Pollen", "Nectar"],
                 "answer": "Nectar"
               },
               {
                 "id": 14,
                 "question": "How many legs does an insect have?",
-                "options": [
-                  "6",
-                  "4",
-                  "8",
-                  "10"
-                ],
+                "options": ["6", "4", "8", "10"],
                 "answer": "6"
               },
               {
@@ -176,56 +122,31 @@
               {
                 "id": 16,
                 "question": "Which vitamin is produced in the skin by sunlight?",
-                "options": [
-                  "Vitamin A",
-                  "Vitamin B",
-                  "Vitamin D",
-                  "Vitamin C"
-                ],
+                "options": ["Vitamin A", "Vitamin B", "Vitamin D", "Vitamin C"],
                 "answer": "Vitamin D"
               },
               {
                 "id": 17,
                 "question": "Which organ helps in digestion and detoxification?",
-                "options": [
-                  "Heart",
-                  "Lung",
-                  "Kidney",
-                  "Liver"
-                ],
+                "options": ["Heart", "Lung", "Kidney", "Liver"],
                 "answer": "Liver"
               },
               {
                 "id": 18,
                 "question": "What structure carries blood back to the heart?",
-                "options": [
-                  "Artery",
-                  "Capillary",
-                  "Neuron",
-                  "Vein"
-                ],
+                "options": ["Artery", "Capillary", "Neuron", "Vein"],
                 "answer": "Vein"
               },
               {
                 "id": 19,
                 "question": "What part of the brain controls balance?",
-                "options": [
-                  "Medulla",
-                  "Cerebrum",
-                  "Cerebellum",
-                  "Pons"
-                ],
+                "options": ["Medulla", "Cerebrum", "Cerebellum", "Pons"],
                 "answer": "Cerebellum"
               },
               {
                 "id": 20,
                 "question": "Which part of the plant absorbs water?",
-                "options": [
-                  "Stem",
-                  "Roots",
-                  "Leaves",
-                  "Flower"
-                ],
+                "options": ["Stem", "Roots", "Leaves", "Flower"],
                 "answer": "Roots"
               }
             ]
@@ -247,12 +168,7 @@
               {
                 "id": 2,
                 "question": "Which organ is responsible for filtering blood in the human body?",
-                "options": [
-                  "Kidney",
-                  "Lungs",
-                  "Liver",
-                  "Heart"
-                ],
+                "options": ["Kidney", "Lungs", "Liver", "Heart"],
                 "answer": "Kidney"
               },
               {
@@ -346,23 +262,13 @@
               {
                 "id": 11,
                 "question": "Which organ produces insulin?",
-                "options": [
-                  "Pancreas",
-                  "Liver",
-                  "Stomach",
-                  "Kidney"
-                ],
+                "options": ["Pancreas", "Liver", "Stomach", "Kidney"],
                 "answer": "Pancreas"
               },
               {
                 "id": 12,
                 "question": "Which part of the eye is responsible for controlling the amount of light that enters?",
-                "options": [
-                  "Pupil",
-                  "Iris",
-                  "Cornea",
-                  "Lens"
-                ],
+                "options": ["Pupil", "Iris", "Cornea", "Lens"],
                 "answer": "Iris"
               },
               {
@@ -412,45 +318,25 @@
               {
                 "id": 17,
                 "question": "Which gas is absorbed by plants for photosynthesis?",
-                "options": [
-                  "Oxygen",
-                  "Carbon dioxide",
-                  "Nitrogen",
-                  "Hydrogen"
-                ],
+                "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
                 "answer": "Carbon dioxide"
               },
               {
                 "id": 18,
                 "question": "What is the process by which cells divide to produce gametes?",
-                "options": [
-                  "Cloning",
-                  "Meiosis",
-                  "Fertilization",
-                  "Mitosis"
-                ],
+                "options": ["Cloning", "Meiosis", "Fertilization", "Mitosis"],
                 "answer": "Meiosis"
               },
               {
                 "id": 19,
                 "question": "Which vitamin helps in blood clotting?",
-                "options": [
-                  "Vitamin K",
-                  "Vitamin C",
-                  "Vitamin D",
-                  "Vitamin A"
-                ],
+                "options": ["Vitamin K", "Vitamin C", "Vitamin D", "Vitamin A"],
                 "answer": "Vitamin K"
               },
               {
                 "id": 20,
                 "question": "Which structure protects the root tip of a plant?",
-                "options": [
-                  "Xylem",
-                  "Root hair",
-                  "Root cap",
-                  "Phloem"
-                ],
+                "options": ["Xylem", "Root hair", "Root cap", "Phloem"],
                 "answer": "Root cap"
               }
             ]
@@ -483,12 +369,7 @@
               {
                 "id": 3,
                 "question": "Which molecule serves as the main energy currency in cells?",
-                "options": [
-                  "RNA",
-                  "ATP",
-                  "Glucose",
-                  "DNA"
-                ],
+                "options": ["RNA", "ATP", "Glucose", "DNA"],
                 "answer": "ATP"
               },
               {
@@ -505,12 +386,7 @@
               {
                 "id": 5,
                 "question": "Which phase of mitosis involves the alignment of chromosomes at the cell's equator?",
-                "options": [
-                  "Prophase",
-                  "Telophase",
-                  "Anaphase",
-                  "Metaphase"
-                ],
+                "options": ["Prophase", "Telophase", "Anaphase", "Metaphase"],
                 "answer": "Metaphase"
               },
               {
@@ -538,12 +414,7 @@
               {
                 "id": 8,
                 "question": "What structure connects muscles to bones?",
-                "options": [
-                  "Tendons",
-                  "Cartilage",
-                  "Ligaments",
-                  "Joints"
-                ],
+                "options": ["Tendons", "Cartilage", "Ligaments", "Joints"],
                 "answer": "Tendons"
               },
               {
@@ -571,12 +442,7 @@
               {
                 "id": 11,
                 "question": "What part of the immune system produces antibodies?",
-                "options": [
-                  "B cells",
-                  "Macrophages",
-                  "T cells",
-                  "Neutrophils"
-                ],
+                "options": ["B cells", "Macrophages", "T cells", "Neutrophils"],
                 "answer": "B cells"
               },
               {
@@ -604,23 +470,13 @@
               {
                 "id": 14,
                 "question": "Which blood vessels carry blood away from the heart?",
-                "options": [
-                  "Vena cava",
-                  "Capillaries",
-                  "Arteries",
-                  "Veins"
-                ],
+                "options": ["Vena cava", "Capillaries", "Arteries", "Veins"],
                 "answer": "Arteries"
               },
               {
                 "id": 15,
                 "question": "Which organ in the human body is responsible for producing bile?",
-                "options": [
-                  "Gallbladder",
-                  "Stomach",
-                  "Pancreas",
-                  "Liver"
-                ],
+                "options": ["Gallbladder", "Stomach", "Pancreas", "Liver"],
                 "answer": "Liver"
               },
               {
@@ -659,23 +515,13 @@
               {
                 "id": 19,
                 "question": "What is the name of the protein found in red blood cells that binds oxygen?",
-                "options": [
-                  "Insulin",
-                  "Collagen",
-                  "Keratin",
-                  "Hemoglobin"
-                ],
+                "options": ["Insulin", "Collagen", "Keratin", "Hemoglobin"],
                 "answer": "Hemoglobin"
               },
               {
                 "id": 20,
                 "question": "Which hormone regulates the metabolism of carbohydrates and fats?",
-                "options": [
-                  "Cortisol",
-                  "Glucagon",
-                  "Insulin",
-                  "Adrenaline"
-                ],
+                "options": ["Cortisol", "Glucagon", "Insulin", "Adrenaline"],
                 "answer": "Cortisol"
               }
             ]
@@ -691,23 +537,13 @@
               {
                 "id": 1,
                 "question": "What is the chemical symbol for water?",
-                "options": [
-                  "CO2",
-                  "H2O",
-                  "O2",
-                  "NaCl"
-                ],
+                "options": ["CO2", "H2O", "O2", "NaCl"],
                 "answer": "H2O"
               },
               {
                 "id": 2,
                 "question": "Which of these is a noble gas?",
-                "options": [
-                  "Hydrogen",
-                  "Helium",
-                  "Nitrogen",
-                  "Oxygen"
-                ],
+                "options": ["Hydrogen", "Helium", "Nitrogen", "Oxygen"],
                 "answer": "Helium"
               },
               {
@@ -724,67 +560,37 @@
               {
                 "id": 4,
                 "question": "What is the pH value of a neutral solution?",
-                "options": [
-                  "1",
-                  "0",
-                  "7",
-                  "14"
-                ],
+                "options": ["1", "0", "7", "14"],
                 "answer": "7"
               },
               {
                 "id": 5,
                 "question": "What is the common name of NaCl?",
-                "options": [
-                  "Salt",
-                  "Sugar",
-                  "Water",
-                  "Oxygen"
-                ],
+                "options": ["Salt", "Sugar", "Water", "Oxygen"],
                 "answer": "Salt"
               },
               {
                 "id": 6,
                 "question": "Which element is essential for respiration?",
-                "options": [
-                  "Carbon",
-                  "Oxygen",
-                  "Nitrogen",
-                  "Hydrogen"
-                ],
+                "options": ["Carbon", "Oxygen", "Nitrogen", "Hydrogen"],
                 "answer": "Oxygen"
               },
               {
                 "id": 7,
                 "question": "Which is heavier: proton or electron?",
-                "options": [
-                  "None",
-                  "They are equal",
-                  "Proton",
-                  "Electron"
-                ],
+                "options": ["None", "They are equal", "Proton", "Electron"],
                 "answer": "Proton"
               },
               {
                 "id": 8,
                 "question": "Which of the following is a metal?",
-                "options": [
-                  "Chlorine",
-                  "Sulfur",
-                  "Oxygen",
-                  "Iron"
-                ],
+                "options": ["Chlorine", "Sulfur", "Oxygen", "Iron"],
                 "answer": "Iron"
               },
               {
                 "id": 9,
                 "question": "What do we call a substance made of only one kind of atom?",
-                "options": [
-                  "Mixture",
-                  "Solution",
-                  "Compound",
-                  "Element"
-                ],
+                "options": ["Mixture", "Solution", "Compound", "Element"],
                 "answer": "Element"
               },
               {
@@ -812,23 +618,13 @@
               {
                 "id": 12,
                 "question": "Which gas is released during photosynthesis?",
-                "options": [
-                  "Nitrogen",
-                  "Hydrogen",
-                  "Oxygen",
-                  "Carbon dioxide"
-                ],
+                "options": ["Nitrogen", "Hydrogen", "Oxygen", "Carbon dioxide"],
                 "answer": "Oxygen"
               },
               {
                 "id": 13,
                 "question": "What is the atomic number of carbon?",
-                "options": [
-                  "14",
-                  "12",
-                  "6",
-                  "16"
-                ],
+                "options": ["14", "12", "6", "16"],
                 "answer": "6"
               },
               {
@@ -845,67 +641,37 @@
               {
                 "id": 15,
                 "question": "Which state of matter has a fixed volume but no fixed shape?",
-                "options": [
-                  "Liquid",
-                  "Gas",
-                  "Solid",
-                  "Plasma"
-                ],
+                "options": ["Liquid", "Gas", "Solid", "Plasma"],
                 "answer": "Liquid"
               },
               {
                 "id": 16,
                 "question": "What is the main gas found in the air we breathe?",
-                "options": [
-                  "Nitrogen",
-                  "Carbon dioxide",
-                  "Hydrogen",
-                  "Oxygen"
-                ],
+                "options": ["Nitrogen", "Carbon dioxide", "Hydrogen", "Oxygen"],
                 "answer": "Nitrogen"
               },
               {
                 "id": 17,
                 "question": "Which element has the symbol 'Fe'?",
-                "options": [
-                  "Fluorine",
-                  "Francium",
-                  "Iron",
-                  "Fermium"
-                ],
+                "options": ["Fluorine", "Francium", "Iron", "Fermium"],
                 "answer": "Iron"
               },
               {
                 "id": 18,
                 "question": "What is the boiling point of water at sea level?",
-                "options": [
-                  "120°C",
-                  "100°C",
-                  "0°C",
-                  "50°C"
-                ],
+                "options": ["120°C", "100°C", "0°C", "50°C"],
                 "answer": "100°C"
               },
               {
                 "id": 19,
                 "question": "Which of the following is a compound?",
-                "options": [
-                  "H2O",
-                  "N2",
-                  "He",
-                  "O2"
-                ],
+                "options": ["H2O", "N2", "He", "O2"],
                 "answer": "H2O"
               },
               {
                 "id": 20,
                 "question": "Which particle has a negative charge?",
-                "options": [
-                  "Nucleus",
-                  "Electron",
-                  "Neutron",
-                  "Proton"
-                ],
+                "options": ["Nucleus", "Electron", "Neutron", "Proton"],
                 "answer": "Electron"
               }
             ]
@@ -916,34 +682,19 @@
               {
                 "id": 1,
                 "question": "What is the atomic number of oxygen?",
-                "options": [
-                  "9",
-                  "8",
-                  "7",
-                  "6"
-                ],
+                "options": ["9", "8", "7", "6"],
                 "answer": "8"
               },
               {
                 "id": 2,
                 "question": "Which gas turns limewater milky?",
-                "options": [
-                  "Carbon dioxide",
-                  "Oxygen",
-                  "Nitrogen",
-                  "Hydrogen"
-                ],
+                "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
                 "answer": "Carbon dioxide"
               },
               {
                 "id": 3,
                 "question": "What is the chemical symbol for potassium?",
-                "options": [
-                  "Po",
-                  "K",
-                  "P",
-                  "Pt"
-                ],
+                "options": ["Po", "K", "P", "Pt"],
                 "answer": "K"
               },
               {
@@ -960,45 +711,25 @@
               {
                 "id": 5,
                 "question": "Which of these is a non-metal?",
-                "options": [
-                  "Sulfur",
-                  "Zinc",
-                  "Copper",
-                  "Iron"
-                ],
+                "options": ["Sulfur", "Zinc", "Copper", "Iron"],
                 "answer": "Sulfur"
               },
               {
                 "id": 6,
                 "question": "Which element has the highest atomic number among the following?",
-                "options": [
-                  "Uranium",
-                  "Gold",
-                  "Lead",
-                  "Mercury"
-                ],
+                "options": ["Uranium", "Gold", "Lead", "Mercury"],
                 "answer": "Uranium"
               },
               {
                 "id": 7,
                 "question": "Which compound is commonly used in toothpaste?",
-                "options": [
-                  "Bromide",
-                  "Iodide",
-                  "Fluoride",
-                  "Chloride"
-                ],
+                "options": ["Bromide", "Iodide", "Fluoride", "Chloride"],
                 "answer": "Fluoride"
               },
               {
                 "id": 8,
                 "question": "What is formed when acid reacts with a base?",
-                "options": [
-                  "Water only",
-                  "Salt and water",
-                  "Gas",
-                  "Salt only"
-                ],
+                "options": ["Water only", "Salt and water", "Gas", "Salt only"],
                 "answer": "Salt and water"
               },
               {
@@ -1037,67 +768,37 @@
               {
                 "id": 12,
                 "question": "Which gas is used in balloons to make them float?",
-                "options": [
-                  "Hydrogen",
-                  "Oxygen",
-                  "Helium",
-                  "Nitrogen"
-                ],
+                "options": ["Hydrogen", "Oxygen", "Helium", "Nitrogen"],
                 "answer": "Helium"
               },
               {
                 "id": 13,
                 "question": "What is the molecular formula of ammonia?",
-                "options": [
-                  "H2O",
-                  "NH3",
-                  "CH4",
-                  "CO2"
-                ],
+                "options": ["H2O", "NH3", "CH4", "CO2"],
                 "answer": "NH3"
               },
               {
                 "id": 14,
                 "question": "Which substance can act as both acid and base?",
-                "options": [
-                  "Alcohol",
-                  "Water",
-                  "Salt",
-                  "Sugar"
-                ],
+                "options": ["Alcohol", "Water", "Salt", "Sugar"],
                 "answer": "Water"
               },
               {
                 "id": 15,
                 "question": "Which metal is liquid at room temperature?",
-                "options": [
-                  "Silver",
-                  "Copper",
-                  "Iron",
-                  "Mercury"
-                ],
+                "options": ["Silver", "Copper", "Iron", "Mercury"],
                 "answer": "Mercury"
               },
               {
                 "id": 16,
                 "question": "What is the pH range of acids?",
-                "options": [
-                  "7",
-                  "0-6",
-                  "8-14",
-                  "14-20"
-                ],
+                "options": ["7", "0-6", "8-14", "14-20"],
                 "answer": "0-6"
               },
               {
                 "id": 17,
                 "question": "Which compound is used for disinfecting water?",
-                "options": [
-                  "Carbon dioxide",
-                  "Chlorine",
-                  "Oxygen",
-                  "Helium"
-                ],
+                "options": ["Carbon dioxide", "Chlorine", "Oxygen", "Helium"],
                 "answer": "Chlorine"
               },
               {
@@ -1114,23 +815,13 @@
               {
                 "id": 19,
                 "question": "Which of these metals is most reactive?",
-                "options": [
-                  "Gold",
-                  "Copper",
-                  "Potassium",
-                  "Silver"
-                ],
+                "options": ["Gold", "Copper", "Potassium", "Silver"],
                 "answer": "Potassium"
               },
               {
                 "id": 20,
                 "question": "What is the main component of natural gas?",
-                "options": [
-                  "Butane",
-                  "Ethane",
-                  "Methane",
-                  "Propane"
-                ],
+                "options": ["Butane", "Ethane", "Methane", "Propane"],
                 "answer": "Methane"
               }
             ]
@@ -1152,12 +843,7 @@
               {
                 "id": 2,
                 "question": "Which scientist is known for discovering the electron?",
-                "options": [
-                  "Thomson",
-                  "Bohr",
-                  "Dalton",
-                  "Newton"
-                ],
+                "options": ["Thomson", "Bohr", "Dalton", "Newton"],
                 "answer": "Thomson"
               },
               {
@@ -1174,12 +860,7 @@
               {
                 "id": 4,
                 "question": "Which of the following is not a state function?",
-                "options": [
-                  "Work",
-                  "Entropy",
-                  "Internal energy",
-                  "Enthalpy"
-                ],
+                "options": ["Work", "Entropy", "Internal energy", "Enthalpy"],
                 "answer": "Work"
               },
               {
@@ -1229,12 +910,7 @@
               {
                 "id": 9,
                 "question": "Which compound is known as quicklime?",
-                "options": [
-                  "CaO",
-                  "CaCl2",
-                  "CaCO3",
-                  "Ca(OH)2"
-                ],
+                "options": ["CaO", "CaCl2", "CaCO3", "Ca(OH)2"],
                 "answer": "CaO"
               },
               {
@@ -1262,34 +938,19 @@
               {
                 "id": 12,
                 "question": "What is the name of the ion formed when an acid is dissolved in water?",
-                "options": [
-                  "H+",
-                  "Cl-",
-                  "Na+",
-                  "OH-"
-                ],
+                "options": ["H+", "Cl-", "Na+", "OH-"],
                 "answer": "H+"
               },
               {
                 "id": 13,
                 "question": "What is the oxidation state of sulfur in H2SO4?",
-                "options": [
-                  "+4",
-                  "+2",
-                  "0",
-                  "+6"
-                ],
+                "options": ["+4", "+2", "0", "+6"],
                 "answer": "+6"
               },
               {
                 "id": 14,
                 "question": "Which element has the highest electronegativity?",
-                "options": [
-                  "Nitrogen",
-                  "Fluorine",
-                  "Chlorine",
-                  "Oxygen"
-                ],
+                "options": ["Nitrogen", "Fluorine", "Chlorine", "Oxygen"],
                 "answer": "Fluorine"
               },
               {
@@ -1317,12 +978,7 @@
               {
                 "id": 17,
                 "question": "What is the standard enthalpy change of formation of an element in its standard state?",
-                "options": [
-                  "-1",
-                  "1",
-                  "Depends on the element",
-                  "0"
-                ],
+                "options": ["-1", "1", "Depends on the element", "0"],
                 "answer": "0"
               },
               {
@@ -1339,12 +995,7 @@
               {
                 "id": 19,
                 "question": "Which of the following is not an allotrope of carbon?",
-                "options": [
-                  "Fullerene",
-                  "Silica",
-                  "Diamond",
-                  "Graphite"
-                ],
+                "options": ["Fullerene", "Silica", "Diamond", "Graphite"],
                 "answer": "Silica"
               },
               {
@@ -1371,34 +1022,19 @@
               {
                 "id": 1,
                 "question": "What is the unit of force?",
-                "options": [
-                  "Newton",
-                  "Watt",
-                  "Pascal",
-                  "Joule"
-                ],
+                "options": ["Newton", "Watt", "Pascal", "Joule"],
                 "answer": "Newton"
               },
               {
                 "id": 2,
                 "question": "What does a thermometer measure?",
-                "options": [
-                  "Weight",
-                  "Volume",
-                  "Pressure",
-                  "Temperature"
-                ],
+                "options": ["Weight", "Volume", "Pressure", "Temperature"],
                 "answer": "Temperature"
               },
               {
                 "id": 3,
                 "question": "Which device is used to measure electric current?",
-                "options": [
-                  "Thermometer",
-                  "Barometer",
-                  "Ammeter",
-                  "Voltmeter"
-                ],
+                "options": ["Thermometer", "Barometer", "Ammeter", "Voltmeter"],
                 "answer": "Ammeter"
               },
               {
@@ -1437,23 +1073,13 @@
               {
                 "id": 7,
                 "question": "Which unit is used to measure work?",
-                "options": [
-                  "Volt",
-                  "Watt",
-                  "Newton",
-                  "Joule"
-                ],
+                "options": ["Volt", "Watt", "Newton", "Joule"],
                 "answer": "Joule"
               },
               {
                 "id": 8,
                 "question": "What kind of mirror is used in a car’s rearview?",
-                "options": [
-                  "Spherical",
-                  "Convex",
-                  "Plane",
-                  "Concave"
-                ],
+                "options": ["Spherical", "Convex", "Plane", "Concave"],
                 "answer": "Convex"
               },
               {
@@ -1470,23 +1096,13 @@
               {
                 "id": 10,
                 "question": "What is the boiling point of water in Celsius?",
-                "options": [
-                  "37°C",
-                  "212°C",
-                  "0°C",
-                  "100°C"
-                ],
+                "options": ["37°C", "212°C", "0°C", "100°C"],
                 "answer": "100°C"
               },
               {
                 "id": 11,
                 "question": "Which material is a good conductor of electricity?",
-                "options": [
-                  "Plastic",
-                  "Wood",
-                  "Rubber",
-                  "Copper"
-                ],
+                "options": ["Plastic", "Wood", "Rubber", "Copper"],
                 "answer": "Copper"
               },
               {
@@ -1503,23 +1119,13 @@
               {
                 "id": 13,
                 "question": "Which of the following is not a state of matter?",
-                "options": [
-                  "Liquid",
-                  "Solid",
-                  "Gas",
-                  "Vapor"
-                ],
+                "options": ["Liquid", "Solid", "Gas", "Vapor"],
                 "answer": "Vapor"
               },
               {
                 "id": 14,
                 "question": "What is the symbol of resistance in a circuit diagram?",
-                "options": [
-                  "I",
-                  "R",
-                  "Ω",
-                  "V"
-                ],
+                "options": ["I", "R", "Ω", "V"],
                 "answer": "R"
               },
               {
@@ -1536,34 +1142,19 @@
               {
                 "id": 16,
                 "question": "Which of these is a renewable energy source?",
-                "options": [
-                  "Petrol",
-                  "Solar",
-                  "Diesel",
-                  "Coal"
-                ],
+                "options": ["Petrol", "Solar", "Diesel", "Coal"],
                 "answer": "Solar"
               },
               {
                 "id": 17,
                 "question": "How many laws of motion did Newton propose?",
-                "options": [
-                  "4",
-                  "3",
-                  "2",
-                  "1"
-                ],
+                "options": ["4", "3", "2", "1"],
                 "answer": "3"
               },
               {
                 "id": 18,
                 "question": "What is the force that causes objects to fall to Earth?",
-                "options": [
-                  "Tension",
-                  "Gravity",
-                  "Magnetism",
-                  "Friction"
-                ],
+                "options": ["Tension", "Gravity", "Magnetism", "Friction"],
                 "answer": "Gravity"
               },
               {
@@ -1607,23 +1198,13 @@
               {
                 "id": 2,
                 "question": "What is the unit of force?",
-                "options": [
-                  "Joule",
-                  "Watt",
-                  "Pascal",
-                  "Newton"
-                ],
+                "options": ["Joule", "Watt", "Pascal", "Newton"],
                 "answer": "Newton"
               },
               {
                 "id": 3,
                 "question": "Which instrument is used to measure electric current?",
-                "options": [
-                  "Barometer",
-                  "Ammeter",
-                  "Thermometer",
-                  "Voltmeter"
-                ],
+                "options": ["Barometer", "Ammeter", "Thermometer", "Voltmeter"],
                 "answer": "Ammeter"
               },
               {
@@ -1640,23 +1221,13 @@
               {
                 "id": 5,
                 "question": "What is acceleration due to gravity on Earth?",
-                "options": [
-                  "9.2 m/s²",
-                  "10 m/s²",
-                  "8.9 m/s²",
-                  "9.8 m/s²"
-                ],
+                "options": ["9.2 m/s²", "10 m/s²", "8.9 m/s²", "9.8 m/s²"],
                 "answer": "9.8 m/s²"
               },
               {
                 "id": 6,
                 "question": "What is the SI unit of power?",
-                "options": [
-                  "Joule",
-                  "Volt",
-                  "Watt",
-                  "Ampere"
-                ],
+                "options": ["Joule", "Volt", "Watt", "Ampere"],
                 "answer": "Watt"
               },
               {
@@ -1673,23 +1244,13 @@
               {
                 "id": 8,
                 "question": "What property of an object resists changes in its motion?",
-                "options": [
-                  "Inertia",
-                  "Density",
-                  "Mass",
-                  "Weight"
-                ],
+                "options": ["Inertia", "Density", "Mass", "Weight"],
                 "answer": "Inertia"
               },
               {
                 "id": 9,
                 "question": "What is Ohm's law?",
-                "options": [
-                  "F = ma",
-                  "V = IR",
-                  "E = mc²",
-                  "P = IV"
-                ],
+                "options": ["F = ma", "V = IR", "E = mc²", "P = IV"],
                 "answer": "V = IR"
               },
               {
@@ -1706,34 +1267,19 @@
               {
                 "id": 11,
                 "question": "Which of the following is a scalar quantity?",
-                "options": [
-                  "Temperature",
-                  "Velocity",
-                  "Force",
-                  "Acceleration"
-                ],
+                "options": ["Temperature", "Velocity", "Force", "Acceleration"],
                 "answer": "Temperature"
               },
               {
                 "id": 12,
                 "question": "What is the resistance of a superconductor at low temperatures?",
-                "options": [
-                  "Infinite",
-                  "Zero",
-                  "Moderate",
-                  "High"
-                ],
+                "options": ["Infinite", "Zero", "Moderate", "High"],
                 "answer": "Zero"
               },
               {
                 "id": 13,
                 "question": "What is the frequency of AC power supply in most countries?",
-                "options": [
-                  "25 Hz",
-                  "50 Hz",
-                  "75 Hz",
-                  "100 Hz"
-                ],
+                "options": ["25 Hz", "50 Hz", "75 Hz", "100 Hz"],
                 "answer": "50 Hz"
               },
               {
@@ -1761,23 +1307,13 @@
               {
                 "id": 16,
                 "question": "What is the device used to store electric charge?",
-                "options": [
-                  "Capacitor",
-                  "Resistor",
-                  "Diode",
-                  "Transistor"
-                ],
+                "options": ["Capacitor", "Resistor", "Diode", "Transistor"],
                 "answer": "Capacitor"
               },
               {
                 "id": 17,
                 "question": "What is the turning effect of a force called?",
-                "options": [
-                  "Impulse",
-                  "Power",
-                  "Energy",
-                  "Moment"
-                ],
+                "options": ["Impulse", "Power", "Energy", "Moment"],
                 "answer": "Moment"
               },
               {
@@ -1805,12 +1341,7 @@
               {
                 "id": 20,
                 "question": "Which wave does not require a medium to travel?",
-                "options": [
-                  "Light",
-                  "Water",
-                  "Sound",
-                  "Seismic"
-                ],
+                "options": ["Light", "Water", "Sound", "Seismic"],
                 "answer": "Light"
               }
             ]
@@ -1843,12 +1374,7 @@
               {
                 "id": 3,
                 "question": "What is the equivalent resistance of two 4 ohm resistors in parallel?",
-                "options": [
-                  "2 ohms",
-                  "8 ohms",
-                  "1 ohm",
-                  "4 ohms"
-                ],
+                "options": ["2 ohms", "8 ohms", "1 ohm", "4 ohms"],
                 "answer": "2 ohms"
               },
               {
@@ -1876,12 +1402,7 @@
               {
                 "id": 6,
                 "question": "Which law of thermodynamics states that entropy tends to increase?",
-                "options": [
-                  "Zeroth",
-                  "Second",
-                  "First",
-                  "Third"
-                ],
+                "options": ["Zeroth", "Second", "First", "Third"],
                 "answer": "Second"
               },
               {
@@ -1909,12 +1430,7 @@
               {
                 "id": 9,
                 "question": "What is the unit of inductance?",
-                "options": [
-                  "Henry",
-                  "Ohm",
-                  "Weber",
-                  "Farad"
-                ],
+                "options": ["Henry", "Ohm", "Weber", "Farad"],
                 "answer": "Henry"
               },
               {
@@ -1953,12 +1469,7 @@
               {
                 "id": 13,
                 "question": "In a series LCR circuit at resonance, what is the phase difference between voltage and current?",
-                "options": [
-                  "180°",
-                  "Zero",
-                  "90°",
-                  "45°"
-                ],
+                "options": ["180°", "Zero", "90°", "45°"],
                 "answer": "Zero"
               },
               {
@@ -2019,23 +1530,13 @@
               {
                 "id": 19,
                 "question": "What is the dimension of pressure?",
-                "options": [
-                  "MLT⁻²",
-                  "M⁻¹LT⁻²",
-                  "ML⁻¹T⁻²",
-                  "ML²T⁻²"
-                ],
+                "options": ["MLT⁻²", "M⁻¹LT⁻²", "ML⁻¹T⁻²", "ML²T⁻²"],
                 "answer": "ML⁻¹T⁻²"
               },
               {
                 "id": 20,
                 "question": "Which physical quantity is represented by the area under a force-displacement graph?",
-                "options": [
-                  "Power",
-                  "Work done",
-                  "Momentum",
-                  "Energy"
-                ],
+                "options": ["Power", "Work done", "Momentum", "Energy"],
                 "answer": "Work done"
               }
             ]
@@ -2046,6 +1547,7 @@
   },
   {
     "subject": "Art",
+    "description": "Explore quizzes on Art history, famous painters, and creative movements.",
     "subsubjects": [
       {
         "subsubject": "Art History",
@@ -2078,12 +1580,7 @@
               {
                 "id": 3,
                 "question": "Which civilization built the Parthenon?",
-                "options": [
-                  "Mayan",
-                  "Greek",
-                  "Roman",
-                  "Egyptian"
-                ],
+                "options": ["Mayan", "Greek", "Roman", "Egyptian"],
                 "answer": "Greek"
               },
               {
@@ -2100,12 +1597,7 @@
               {
                 "id": 5,
                 "question": "Which country is famous for the ukiyo-e style of painting?",
-                "options": [
-                  "India",
-                  "Thailand",
-                  "Japan",
-                  "China"
-                ],
+                "options": ["India", "Thailand", "Japan", "China"],
                 "answer": "Japan"
               },
               {
@@ -2122,12 +1614,7 @@
               {
                 "id": 7,
                 "question": "What period followed the Renaissance in art history?",
-                "options": [
-                  "Medieval",
-                  "Gothic",
-                  "Neoclassical",
-                  "Baroque"
-                ],
+                "options": ["Medieval", "Gothic", "Neoclassical", "Baroque"],
                 "answer": "Baroque"
               },
               {
@@ -2144,12 +1631,7 @@
               {
                 "id": 9,
                 "question": "Which medium is typically used for fresco painting?",
-                "options": [
-                  "Wet plaster",
-                  "Canvas",
-                  "Paper",
-                  "Wood"
-                ],
+                "options": ["Wet plaster", "Canvas", "Paper", "Wood"],
                 "answer": "Wet plaster"
               },
               {
@@ -2166,56 +1648,31 @@
               {
                 "id": 11,
                 "question": "What does 'Renaissance' mean?",
-                "options": [
-                  "Rebirth",
-                  "Light",
-                  "Freedom",
-                  "Creation"
-                ],
+                "options": ["Rebirth", "Light", "Freedom", "Creation"],
                 "answer": "Rebirth"
               },
               {
                 "id": 12,
                 "question": "Which artist is known for the sculpture of David?",
-                "options": [
-                  "Bernini",
-                  "Michelangelo",
-                  "Rodin",
-                  "Donatello"
-                ],
+                "options": ["Bernini", "Michelangelo", "Rodin", "Donatello"],
                 "answer": "Michelangelo"
               },
               {
                 "id": 13,
                 "question": "In which country did the Impressionist movement begin?",
-                "options": [
-                  "France",
-                  "Spain",
-                  "Italy",
-                  "Germany"
-                ],
+                "options": ["France", "Spain", "Italy", "Germany"],
                 "answer": "France"
               },
               {
                 "id": 14,
                 "question": "Which period is known for Gothic cathedrals?",
-                "options": [
-                  "Renaissance",
-                  "Baroque",
-                  "Modern",
-                  "Medieval"
-                ],
+                "options": ["Renaissance", "Baroque", "Modern", "Medieval"],
                 "answer": "Medieval"
               },
               {
                 "id": 15,
                 "question": "What is the subject of Edvard Munch's famous painting?",
-                "options": [
-                  "A dream",
-                  "A kiss",
-                  "A scream",
-                  "A dance"
-                ],
+                "options": ["A dream", "A kiss", "A scream", "A dance"],
                 "answer": "A scream"
               },
               {
@@ -2292,23 +1749,13 @@
               {
                 "id": 2,
                 "question": "What is the art movement characterized by a fascination with light and color, founded in the 19th century?",
-                "options": [
-                  "Baroque",
-                  "Cubism",
-                  "Surrealism",
-                  "Impressionism"
-                ],
+                "options": ["Baroque", "Cubism", "Surrealism", "Impressionism"],
                 "answer": "Impressionism"
               },
               {
                 "id": 3,
                 "question": "Which ancient civilization built the Parthenon?",
-                "options": [
-                  "Romans",
-                  "Persians",
-                  "Egyptians",
-                  "Greeks"
-                ],
+                "options": ["Romans", "Persians", "Egyptians", "Greeks"],
                 "answer": "Greeks"
               },
               {
@@ -2336,23 +1783,13 @@
               {
                 "id": 6,
                 "question": "Who painted the 'School of Athens'?",
-                "options": [
-                  "Giotto",
-                  "Raphael",
-                  "Michelangelo",
-                  "Titian"
-                ],
+                "options": ["Giotto", "Raphael", "Michelangelo", "Titian"],
                 "answer": "Raphael"
               },
               {
                 "id": 7,
                 "question": "Which style is associated with Salvador Dalí?",
-                "options": [
-                  "Realism",
-                  "Surrealism",
-                  "Cubism",
-                  "Impressionism"
-                ],
+                "options": ["Realism", "Surrealism", "Cubism", "Impressionism"],
                 "answer": "Surrealism"
               },
               {
@@ -2369,34 +1806,19 @@
               {
                 "id": 9,
                 "question": "What art style is Pablo Picasso known for pioneering?",
-                "options": [
-                  "Rococo",
-                  "Expressionism",
-                  "Fauvism",
-                  "Cubism"
-                ],
+                "options": ["Rococo", "Expressionism", "Fauvism", "Cubism"],
                 "answer": "Cubism"
               },
               {
                 "id": 10,
                 "question": "Which Italian city is considered the birthplace of the Renaissance?",
-                "options": [
-                  "Venice",
-                  "Florence",
-                  "Naples",
-                  "Rome"
-                ],
+                "options": ["Venice", "Florence", "Naples", "Rome"],
                 "answer": "Florence"
               },
               {
                 "id": 11,
                 "question": "Which artist is known for the painting 'The Birth of Venus'?",
-                "options": [
-                  "Titian",
-                  "Da Vinci",
-                  "Botticelli",
-                  "Caravaggio"
-                ],
+                "options": ["Titian", "Da Vinci", "Botticelli", "Caravaggio"],
                 "answer": "Botticelli"
               },
               {
@@ -2435,23 +1857,13 @@
               {
                 "id": 15,
                 "question": "Which Dutch painter is known for his detailed domestic interior scenes?",
-                "options": [
-                  "Rembrandt",
-                  "Vermeer",
-                  "Rubens",
-                  "Frans Hals"
-                ],
+                "options": ["Rembrandt", "Vermeer", "Rubens", "Frans Hals"],
                 "answer": "Vermeer"
               },
               {
                 "id": 16,
                 "question": "What is the technique of painting on wet plaster called?",
-                "options": [
-                  "Encaustic",
-                  "Fresco",
-                  "Tempera",
-                  "Oil"
-                ],
+                "options": ["Encaustic", "Fresco", "Tempera", "Oil"],
                 "answer": "Fresco"
               },
               {
@@ -2528,12 +1940,7 @@
               {
                 "id": 3,
                 "question": "Who designed the dome of St. Peter’s Basilica in Vatican City?",
-                "options": [
-                  "Bernini",
-                  "Michelangelo",
-                  "Bramante",
-                  "Raphael"
-                ],
+                "options": ["Bernini", "Michelangelo", "Bramante", "Raphael"],
                 "answer": "Michelangelo"
               },
               {
@@ -2550,12 +1957,7 @@
               {
                 "id": 5,
                 "question": "Which artist pioneered the use of linear perspective in painting?",
-                "options": [
-                  "Brunelleschi",
-                  "Donatello",
-                  "Masaccio",
-                  "Giotto"
-                ],
+                "options": ["Brunelleschi", "Donatello", "Masaccio", "Giotto"],
                 "answer": "Masaccio"
               },
               {
@@ -2605,12 +2007,7 @@
               {
                 "id": 10,
                 "question": "Who created the sculpture 'Ecstasy of Saint Teresa'?",
-                "options": [
-                  "Michelangelo",
-                  "Canova",
-                  "Bernini",
-                  "Ghiberti"
-                ],
+                "options": ["Michelangelo", "Canova", "Bernini", "Ghiberti"],
                 "answer": "Bernini"
               },
               {
@@ -2638,12 +2035,7 @@
               {
                 "id": 13,
                 "question": "Which painting technique involves applying pigment to dry plaster?",
-                "options": [
-                  "Tempera",
-                  "Secco fresco",
-                  "Impasto",
-                  "Encaustic"
-                ],
+                "options": ["Tempera", "Secco fresco", "Impasto", "Encaustic"],
                 "answer": "Secco fresco"
               },
               {
@@ -2671,12 +2063,7 @@
               {
                 "id": 16,
                 "question": "What ancient culture is known for its detailed black-figure pottery?",
-                "options": [
-                  "Greek",
-                  "Roman",
-                  "Etruscan",
-                  "Persian"
-                ],
+                "options": ["Greek", "Roman", "Etruscan", "Persian"],
                 "answer": "Greek"
               },
               {
@@ -2736,23 +2123,13 @@
               {
                 "id": 1,
                 "question": "What tool is commonly used to erase pencil marks?",
-                "options": [
-                  "Pen",
-                  "Sharpener",
-                  "Eraser",
-                  "Ruler"
-                ],
+                "options": ["Pen", "Sharpener", "Eraser", "Ruler"],
                 "answer": "Eraser"
               },
               {
                 "id": 2,
                 "question": "Which pencil type is typically darker?",
-                "options": [
-                  "2H",
-                  "2B",
-                  "H",
-                  "HB"
-                ],
+                "options": ["2H", "2B", "H", "HB"],
                 "answer": "2B"
               },
               {
@@ -2769,34 +2146,19 @@
               {
                 "id": 4,
                 "question": "What do artists use to blend pencil shading?",
-                "options": [
-                  "Brush",
-                  "Eraser",
-                  "Ruler",
-                  "Blending stump"
-                ],
+                "options": ["Brush", "Eraser", "Ruler", "Blending stump"],
                 "answer": "Blending stump"
               },
               {
                 "id": 5,
                 "question": "What is a preliminary drawing called?",
-                "options": [
-                  "Sketch",
-                  "Portrait",
-                  "Mural",
-                  "Still life"
-                ],
+                "options": ["Sketch", "Portrait", "Mural", "Still life"],
                 "answer": "Sketch"
               },
               {
                 "id": 6,
                 "question": "Which shape is not a basic geometric form?",
-                "options": [
-                  "Flower",
-                  "Pyramid",
-                  "Cube",
-                  "Sphere"
-                ],
+                "options": ["Flower", "Pyramid", "Cube", "Sphere"],
                 "answer": "Flower"
               },
               {
@@ -2813,23 +2175,13 @@
               {
                 "id": 8,
                 "question": "What is used to fix charcoal drawings?",
-                "options": [
-                  "Paint",
-                  "Fixative spray",
-                  "Glue",
-                  "Water"
-                ],
+                "options": ["Paint", "Fixative spray", "Glue", "Water"],
                 "answer": "Fixative spray"
               },
               {
                 "id": 9,
                 "question": "Which material is best for a drawing surface?",
-                "options": [
-                  "Glass",
-                  "Drawing paper",
-                  "Cardboard",
-                  "Canvas"
-                ],
+                "options": ["Glass", "Drawing paper", "Cardboard", "Canvas"],
                 "answer": "Drawing paper"
               },
               {
@@ -2846,23 +2198,13 @@
               {
                 "id": 11,
                 "question": "Which of these is a dry drawing medium?",
-                "options": [
-                  "Watercolor",
-                  "Charcoal",
-                  "Ink",
-                  "Acrylic"
-                ],
+                "options": ["Watercolor", "Charcoal", "Ink", "Acrylic"],
                 "answer": "Charcoal"
               },
               {
                 "id": 12,
                 "question": "What is the term for a light source in drawing?",
-                "options": [
-                  "Shadow",
-                  "Tone",
-                  "Contrast",
-                  "Highlight"
-                ],
+                "options": ["Shadow", "Tone", "Contrast", "Highlight"],
                 "answer": "Highlight"
               },
               {
@@ -2890,12 +2232,7 @@
               {
                 "id": 15,
                 "question": "Which of these tools is used for detailed pencil work?",
-                "options": [
-                  "Paintbrush",
-                  "Fine-tip pencil",
-                  "Chalk",
-                  "Ruler"
-                ],
+                "options": ["Paintbrush", "Fine-tip pencil", "Chalk", "Ruler"],
                 "answer": "Fine-tip pencil"
               },
               {
@@ -2934,12 +2271,7 @@
               {
                 "id": 19,
                 "question": "Which term refers to the lightest part of a shaded drawing?",
-                "options": [
-                  "Shadow",
-                  "Highlight",
-                  "Midtone",
-                  "Edge"
-                ],
+                "options": ["Shadow", "Highlight", "Midtone", "Edge"],
                 "answer": "Highlight"
               },
               {
@@ -2994,23 +2326,13 @@
               {
                 "id": 4,
                 "question": "Which medium is best for quick sketches?",
-                "options": [
-                  "Charcoal",
-                  "Ink",
-                  "Acrylic",
-                  "Oil paint"
-                ],
+                "options": ["Charcoal", "Ink", "Acrylic", "Oil paint"],
                 "answer": "Charcoal"
               },
               {
                 "id": 5,
                 "question": "Which element is most crucial in creating depth?",
-                "options": [
-                  "Detail",
-                  "Texture",
-                  "Color",
-                  "Value"
-                ],
+                "options": ["Detail", "Texture", "Color", "Value"],
                 "answer": "Value"
               },
               {
@@ -3027,34 +2349,19 @@
               {
                 "id": 7,
                 "question": "Which pencil grade is hardest?",
-                "options": [
-                  "6H",
-                  "B",
-                  "2B",
-                  "HB"
-                ],
+                "options": ["6H", "B", "2B", "HB"],
                 "answer": "6H"
               },
               {
                 "id": 8,
                 "question": "What term describes a drawing that shows three dimensions?",
-                "options": [
-                  "Foreshortening",
-                  "Perspective",
-                  "Flat",
-                  "Contour"
-                ],
+                "options": ["Foreshortening", "Perspective", "Flat", "Contour"],
                 "answer": "Perspective"
               },
               {
                 "id": 9,
                 "question": "What is the term for light and dark areas in art?",
-                "options": [
-                  "Line",
-                  "Value",
-                  "Shape",
-                  "Color"
-                ],
+                "options": ["Line", "Value", "Shape", "Color"],
                 "answer": "Value"
               },
               {
@@ -3071,34 +2378,19 @@
               {
                 "id": 11,
                 "question": "Which drawing technique uses only one continuous line?",
-                "options": [
-                  "Gesture",
-                  "Blind contour",
-                  "Shading",
-                  "Sketching"
-                ],
+                "options": ["Gesture", "Blind contour", "Shading", "Sketching"],
                 "answer": "Blind contour"
               },
               {
                 "id": 12,
                 "question": "What are highlights and shadows examples of?",
-                "options": [
-                  "Tone",
-                  "Texture",
-                  "Form",
-                  "Line"
-                ],
+                "options": ["Tone", "Texture", "Form", "Line"],
                 "answer": "Tone"
               },
               {
                 "id": 13,
                 "question": "What is used to create the illusion of texture?",
-                "options": [
-                  "Line",
-                  "Blending",
-                  "Pattern",
-                  "Tone"
-                ],
+                "options": ["Line", "Blending", "Pattern", "Tone"],
                 "answer": "Pattern"
               },
               {
@@ -3126,12 +2418,7 @@
               {
                 "id": 16,
                 "question": "Which technique uses dots for shading?",
-                "options": [
-                  "Blocking",
-                  "Blending",
-                  "Hatching",
-                  "Pointillism"
-                ],
+                "options": ["Blocking", "Blending", "Hatching", "Pointillism"],
                 "answer": "Pointillism"
               },
               {
@@ -3148,34 +2435,19 @@
               {
                 "id": 18,
                 "question": "Which term refers to the light source’s opposite?",
-                "options": [
-                  "Midtone",
-                  "Highlight",
-                  "Shadow",
-                  "Edge"
-                ],
+                "options": ["Midtone", "Highlight", "Shadow", "Edge"],
                 "answer": "Shadow"
               },
               {
                 "id": 19,
                 "question": "Which tool helps to enlarge a drawing accurately?",
-                "options": [
-                  "Compass",
-                  "Ruler",
-                  "Grid",
-                  "Protractor"
-                ],
+                "options": ["Compass", "Ruler", "Grid", "Protractor"],
                 "answer": "Grid"
               },
               {
                 "id": 20,
                 "question": "Which pencil is best for detailed lines?",
-                "options": [
-                  "H",
-                  "2B",
-                  "4B",
-                  "6B"
-                ],
+                "options": ["H", "2B", "4B", "6B"],
                 "answer": "H"
               }
             ]
@@ -3186,23 +2458,13 @@
               {
                 "id": 1,
                 "question": "What technique involves creating light and dark areas to give a three-dimensional feel?",
-                "options": [
-                  "Tracing",
-                  "Highlighting",
-                  "Shading",
-                  "Outlining"
-                ],
+                "options": ["Tracing", "Highlighting", "Shading", "Outlining"],
                 "answer": "Shading"
               },
               {
                 "id": 2,
                 "question": "Which artist is known for the Vitruvian Man, a detailed anatomical drawing?",
-                "options": [
-                  "Raphael",
-                  "Da Vinci",
-                  "Rembrandt",
-                  "Michelangelo"
-                ],
+                "options": ["Raphael", "Da Vinci", "Rembrandt", "Michelangelo"],
                 "answer": "Da Vinci"
               },
               {
@@ -3230,12 +2492,7 @@
               {
                 "id": 5,
                 "question": "What is a gesture drawing primarily used to capture?",
-                "options": [
-                  "Movement",
-                  "Texture",
-                  "Detail",
-                  "Color"
-                ],
+                "options": ["Movement", "Texture", "Detail", "Color"],
                 "answer": "Movement"
               },
               {
@@ -3307,12 +2564,7 @@
               {
                 "id": 12,
                 "question": "Which tool is commonly used for precise and technical drawings?",
-                "options": [
-                  "Charcoal",
-                  "Ink pen",
-                  "Graphite pencil",
-                  "Stylus"
-                ],
+                "options": ["Charcoal", "Ink pen", "Graphite pencil", "Stylus"],
                 "answer": "Ink pen"
               },
               {
@@ -3340,12 +2592,7 @@
               {
                 "id": 15,
                 "question": "Which of these artists was famous for using pointillism in his sketches?",
-                "options": [
-                  "Monet",
-                  "Georges Seurat",
-                  "Picasso",
-                  "Cézanne"
-                ],
+                "options": ["Monet", "Georges Seurat", "Picasso", "Cézanne"],
                 "answer": "Georges Seurat"
               },
               {
@@ -3362,12 +2609,7 @@
               {
                 "id": 17,
                 "question": "Which principle of art is used when arranging elements to create stability?",
-                "options": [
-                  "Contrast",
-                  "Balance",
-                  "Movement",
-                  "Rhythm"
-                ],
+                "options": ["Contrast", "Balance", "Movement", "Rhythm"],
                 "answer": "Balance"
               },
               {
@@ -3384,12 +2626,7 @@
               {
                 "id": 19,
                 "question": "What technique uses layers of pencil to gradually build dark tones?",
-                "options": [
-                  "Smudging",
-                  "Layering",
-                  "Outlining",
-                  "Stippling"
-                ],
+                "options": ["Smudging", "Layering", "Outlining", "Stippling"],
                 "answer": "Layering"
               },
               {
@@ -3416,67 +2653,37 @@
               {
                 "id": 1,
                 "question": "What is the primary medium used in watercolor painting?",
-                "options": [
-                  "Water",
-                  "Ink",
-                  "Acrylic",
-                  "Oil"
-                ],
+                "options": ["Water", "Ink", "Acrylic", "Oil"],
                 "answer": "Water"
               },
               {
                 "id": 2,
                 "question": "Which color is a primary color?",
-                "options": [
-                  "Green",
-                  "Blue",
-                  "Orange",
-                  "Purple"
-                ],
+                "options": ["Green", "Blue", "Orange", "Purple"],
                 "answer": "Blue"
               },
               {
                 "id": 3,
                 "question": "What tool is most commonly used to apply paint?",
-                "options": [
-                  "Brush",
-                  "Palette",
-                  "Sponge",
-                  "Knife"
-                ],
+                "options": ["Brush", "Palette", "Sponge", "Knife"],
                 "answer": "Brush"
               },
               {
                 "id": 4,
                 "question": "What surface is traditionally used for oil painting?",
-                "options": [
-                  "Canvas",
-                  "Wood",
-                  "Paper",
-                  "Glass"
-                ],
+                "options": ["Canvas", "Wood", "Paper", "Glass"],
                 "answer": "Canvas"
               },
               {
                 "id": 5,
                 "question": "Which color is made by mixing red and yellow?",
-                "options": [
-                  "Purple",
-                  "Green",
-                  "Orange",
-                  "Brown"
-                ],
+                "options": ["Purple", "Green", "Orange", "Brown"],
                 "answer": "Orange"
               },
               {
                 "id": 6,
                 "question": "What do we call a painting of a person’s face?",
-                "options": [
-                  "Landscape",
-                  "Still life",
-                  "Portrait",
-                  "Abstract"
-                ],
+                "options": ["Landscape", "Still life", "Portrait", "Abstract"],
                 "answer": "Portrait"
               },
               {
@@ -3493,34 +2700,19 @@
               {
                 "id": 8,
                 "question": "Which of these is a warm color?",
-                "options": [
-                  "Orange",
-                  "Green",
-                  "Purple",
-                  "Blue"
-                ],
+                "options": ["Orange", "Green", "Purple", "Blue"],
                 "answer": "Orange"
               },
               {
                 "id": 9,
                 "question": "Which painting technique involves using thick layers of paint?",
-                "options": [
-                  "Wash",
-                  "Glazing",
-                  "Dry Brush",
-                  "Impasto"
-                ],
+                "options": ["Wash", "Glazing", "Dry Brush", "Impasto"],
                 "answer": "Impasto"
               },
               {
                 "id": 10,
                 "question": "Which color do you get by mixing blue and red?",
-                "options": [
-                  "Brown",
-                  "Purple",
-                  "Orange",
-                  "Green"
-                ],
+                "options": ["Brown", "Purple", "Orange", "Green"],
                 "answer": "Purple"
               },
               {
@@ -3570,23 +2762,13 @@
               {
                 "id": 15,
                 "question": "What is the technique of painting on wet plaster called?",
-                "options": [
-                  "Encaustic",
-                  "Fresco",
-                  "Impasto",
-                  "Tempera"
-                ],
+                "options": ["Encaustic", "Fresco", "Impasto", "Tempera"],
                 "answer": "Fresco"
               },
               {
                 "id": 16,
                 "question": "Which of these is not a primary color?",
-                "options": [
-                  "Yellow",
-                  "Red",
-                  "Green",
-                  "Blue"
-                ],
+                "options": ["Yellow", "Red", "Green", "Blue"],
                 "answer": "Green"
               },
               {
@@ -3614,23 +2796,13 @@
               {
                 "id": 19,
                 "question": "What does 'still life' painting typically depict?",
-                "options": [
-                  "Objects",
-                  "Landscapes",
-                  "People",
-                  "Animals"
-                ],
+                "options": ["Objects", "Landscapes", "People", "Animals"],
                 "answer": "Objects"
               },
               {
                 "id": 20,
                 "question": "What do you call a small, preliminary version of a painting?",
-                "options": [
-                  "Model",
-                  "Thumbnail",
-                  "Draft",
-                  "Sketch"
-                ],
+                "options": ["Model", "Thumbnail", "Draft", "Sketch"],
                 "answer": "Thumbnail"
               }
             ]
@@ -3641,12 +2813,7 @@
               {
                 "id": 1,
                 "question": "Which painting technique uses a quick, loose brushstroke to suggest movement and light?",
-                "options": [
-                  "Dry Brush",
-                  "Impasto",
-                  "Glazing",
-                  "Alla Prima"
-                ],
+                "options": ["Dry Brush", "Impasto", "Glazing", "Alla Prima"],
                 "answer": "Alla Prima"
               },
               {
@@ -3685,23 +2852,13 @@
               {
                 "id": 5,
                 "question": "Which artist is known for his Blue Period?",
-                "options": [
-                  "Monet",
-                  "Matisse",
-                  "Picasso",
-                  "Van Gogh"
-                ],
+                "options": ["Monet", "Matisse", "Picasso", "Van Gogh"],
                 "answer": "Picasso"
               },
               {
                 "id": 6,
                 "question": "What is the term for painting that focuses on still, inanimate objects?",
-                "options": [
-                  "Abstract",
-                  "Portrait",
-                  "Still Life",
-                  "Landscape"
-                ],
+                "options": ["Abstract", "Portrait", "Still Life", "Landscape"],
                 "answer": "Still Life"
               },
               {
@@ -3718,34 +2875,19 @@
               {
                 "id": 8,
                 "question": "What substance is used to thin oil paint for a more fluid application?",
-                "options": [
-                  "Alcohol",
-                  "Glue",
-                  "Turpentine",
-                  "Water"
-                ],
+                "options": ["Alcohol", "Glue", "Turpentine", "Water"],
                 "answer": "Turpentine"
               },
               {
                 "id": 9,
                 "question": "Which of these painters is associated with Cubism?",
-                "options": [
-                  "Monet",
-                  "Picasso",
-                  "Da Vinci",
-                  "Van Gogh"
-                ],
+                "options": ["Monet", "Picasso", "Da Vinci", "Van Gogh"],
                 "answer": "Picasso"
               },
               {
                 "id": 10,
                 "question": "What is the term for a painting made directly onto a wall or ceiling?",
-                "options": [
-                  "Triptych",
-                  "Fresco",
-                  "Panel",
-                  "Canvas"
-                ],
+                "options": ["Triptych", "Fresco", "Panel", "Canvas"],
                 "answer": "Fresco"
               },
               {
@@ -3839,23 +2981,13 @@
               {
                 "id": 19,
                 "question": "What is the term for painting where pigment is mixed with hot wax?",
-                "options": [
-                  "Encaustic",
-                  "Tempera",
-                  "Impasto",
-                  "Fresco"
-                ],
+                "options": ["Encaustic", "Tempera", "Impasto", "Fresco"],
                 "answer": "Encaustic"
               },
               {
                 "id": 20,
                 "question": "Who painted 'The School of Athens'?",
-                "options": [
-                  "Raphael",
-                  "Caravaggio",
-                  "Titian",
-                  "Botticelli"
-                ],
+                "options": ["Raphael", "Caravaggio", "Titian", "Botticelli"],
                 "answer": "Raphael"
               }
             ]
@@ -3866,12 +2998,7 @@
               {
                 "id": 1,
                 "question": "What is the name of the technique where pigment is applied thickly to create texture on a painting?",
-                "options": [
-                  "Wash",
-                  "Impasto",
-                  "Glazing",
-                  "Sfumato"
-                ],
+                "options": ["Wash", "Impasto", "Glazing", "Sfumato"],
                 "answer": "Impasto"
               },
               {
@@ -3932,12 +3059,7 @@
               {
                 "id": 7,
                 "question": "Which painting method involves painting on freshly applied plaster?",
-                "options": [
-                  "Tempera",
-                  "Gouache",
-                  "Fresco",
-                  "Acrylic"
-                ],
+                "options": ["Tempera", "Gouache", "Fresco", "Acrylic"],
                 "answer": "Fresco"
               },
               {
@@ -3965,23 +3087,13 @@
               {
                 "id": 10,
                 "question": "What kind of painting uses powdered pigment mixed with water on wet plaster?",
-                "options": [
-                  "Fresco",
-                  "Oil",
-                  "Encaustic",
-                  "Tempera"
-                ],
+                "options": ["Fresco", "Oil", "Encaustic", "Tempera"],
                 "answer": "Fresco"
               },
               {
                 "id": 11,
                 "question": "Which Baroque artist was known for dramatic lighting and realism?",
-                "options": [
-                  "El Greco",
-                  "Caravaggio",
-                  "Velázquez",
-                  "Rubens"
-                ],
+                "options": ["El Greco", "Caravaggio", "Velázquez", "Rubens"],
                 "answer": "Caravaggio"
               },
               {
@@ -4020,12 +3132,7 @@
               {
                 "id": 15,
                 "question": "Which element of art is most emphasized in minimalist painting?",
-                "options": [
-                  "Form",
-                  "Texture",
-                  "Color",
-                  "Line"
-                ],
+                "options": ["Form", "Texture", "Color", "Line"],
                 "answer": "Line"
               },
               {
@@ -4053,34 +3160,19 @@
               {
                 "id": 18,
                 "question": "Which avant-garde movement included automatic painting as part of its practice?",
-                "options": [
-                  "Futurism",
-                  "Cubism",
-                  "Surrealism",
-                  "Dada"
-                ],
+                "options": ["Futurism", "Cubism", "Surrealism", "Dada"],
                 "answer": "Surrealism"
               },
               {
                 "id": 19,
                 "question": "Which Japanese technique involves ink painting on silk or paper?",
-                "options": [
-                  "Kanji",
-                  "Ukiyo-e",
-                  "Sumi-e",
-                  "Raku"
-                ],
+                "options": ["Kanji", "Ukiyo-e", "Sumi-e", "Raku"],
                 "answer": "Sumi-e"
               },
               {
                 "id": 20,
                 "question": "Which painting surface is known for durability and is commonly used for oil painting?",
-                "options": [
-                  "Wood panel",
-                  "Canvas",
-                  "Paper",
-                  "Silk"
-                ],
+                "options": ["Wood panel", "Canvas", "Paper", "Silk"],
                 "answer": "Canvas"
               }
             ]
@@ -4091,6 +3183,7 @@
   },
   {
     "subject": "Commercial",
+    "description": "Test your skills in business, economics, finance, and marketing.",
     "subsubjects": [
       {
         "subsubject": "Accounting",
@@ -4134,12 +3227,7 @@
               {
                 "id": 4,
                 "question": "Which of these is an asset?",
-                "options": [
-                  "Cash",
-                  "Tax",
-                  "Salary",
-                  "Loan"
-                ],
+                "options": ["Cash", "Tax", "Salary", "Loan"],
                 "answer": "Cash"
               },
               {
@@ -4156,12 +3244,7 @@
               {
                 "id": 6,
                 "question": "What type of account is ‘Rent Expense’?",
-                "options": [
-                  "Income",
-                  "Liability",
-                  "Asset",
-                  "Expense"
-                ],
+                "options": ["Income", "Liability", "Asset", "Expense"],
                 "answer": "Expense"
               },
               {
@@ -4178,12 +3261,7 @@
               {
                 "id": 8,
                 "question": "What document records all financial transactions?",
-                "options": [
-                  "Journal",
-                  "Balance Sheet",
-                  "Ledger",
-                  "Invoice"
-                ],
+                "options": ["Journal", "Balance Sheet", "Ledger", "Invoice"],
                 "answer": "Journal"
               },
               {
@@ -4222,34 +3300,19 @@
               {
                 "id": 12,
                 "question": "Which account increases on the debit side?",
-                "options": [
-                  "Liability",
-                  "Revenue",
-                  "Expense",
-                  "Capital"
-                ],
+                "options": ["Liability", "Revenue", "Expense", "Capital"],
                 "answer": "Expense"
               },
               {
                 "id": 13,
                 "question": "What type of account is ‘Accounts Payable’?",
-                "options": [
-                  "Asset",
-                  "Liability",
-                  "Income",
-                  "Expense"
-                ],
+                "options": ["Asset", "Liability", "Income", "Expense"],
                 "answer": "Liability"
               },
               {
                 "id": 14,
                 "question": "Which of these is a personal account?",
-                "options": [
-                  "Mr. Smith",
-                  "Furniture",
-                  "Cash",
-                  "Rent"
-                ],
+                "options": ["Mr. Smith", "Furniture", "Cash", "Rent"],
                 "answer": "Mr. Smith"
               },
               {
@@ -4288,12 +3351,7 @@
               {
                 "id": 18,
                 "question": "Which document is used to summarize all account balances?",
-                "options": [
-                  "Trial Balance",
-                  "Invoice",
-                  "Journal",
-                  "Ledger"
-                ],
+                "options": ["Trial Balance", "Invoice", "Journal", "Ledger"],
                 "answer": "Trial Balance"
               },
               {
@@ -4310,12 +3368,7 @@
               {
                 "id": 20,
                 "question": "Which term represents the owner’s investment in the business?",
-                "options": [
-                  "Liability",
-                  "Expense",
-                  "Revenue",
-                  "Equity"
-                ],
+                "options": ["Liability", "Expense", "Revenue", "Equity"],
                 "answer": "Equity"
               }
             ]
@@ -4359,12 +3412,7 @@
               {
                 "id": 4,
                 "question": "What type of account is ‘Unearned Revenue’ classified as?",
-                "options": [
-                  "Asset",
-                  "Expense",
-                  "Equity",
-                  "Liability"
-                ],
+                "options": ["Asset", "Expense", "Equity", "Liability"],
                 "answer": "Liability"
               },
               {
@@ -4381,12 +3429,7 @@
               {
                 "id": 6,
                 "question": "What does a credit balance in the cash account indicate?",
-                "options": [
-                  "Overdraft",
-                  "Profit",
-                  "Surplus",
-                  "Error"
-                ],
+                "options": ["Overdraft", "Profit", "Surplus", "Error"],
                 "answer": "Overdraft"
               },
               {
@@ -4425,12 +3468,7 @@
               {
                 "id": 10,
                 "question": "What type of account is ‘Prepaid Insurance’ in accounting?",
-                "options": [
-                  "Revenue",
-                  "Liability",
-                  "Asset",
-                  "Equity"
-                ],
+                "options": ["Revenue", "Liability", "Asset", "Equity"],
                 "answer": "Asset"
               },
               {
@@ -4502,12 +3540,7 @@
               {
                 "id": 17,
                 "question": "Which of these is an intangible asset?",
-                "options": [
-                  "Building",
-                  "Vehicle",
-                  "Patent",
-                  "Inventory"
-                ],
+                "options": ["Building", "Vehicle", "Patent", "Inventory"],
                 "answer": "Patent"
               },
               {
@@ -4535,12 +3568,7 @@
               {
                 "id": 20,
                 "question": "Which account type is affected by depreciation?",
-                "options": [
-                  "Asset",
-                  "Revenue",
-                  "Liability",
-                  "Expense"
-                ],
+                "options": ["Asset", "Revenue", "Liability", "Expense"],
                 "answer": "Asset"
               }
             ]
@@ -4584,12 +3612,7 @@
               {
                 "id": 4,
                 "question": "Which standard governs revenue recognition in IFRS?",
-                "options": [
-                  "IAS 7",
-                  "IAS 1",
-                  "IFRS 9",
-                  "IFRS 15"
-                ],
+                "options": ["IAS 7", "IAS 1", "IFRS 9", "IFRS 15"],
                 "answer": "IFRS 15"
               },
               {
@@ -4760,12 +3783,7 @@
               {
                 "id": 20,
                 "question": "Which account increases equity?",
-                "options": [
-                  "Assets",
-                  "Dividends",
-                  "Expenses",
-                  "Revenue"
-                ],
+                "options": ["Assets", "Dividends", "Expenses", "Revenue"],
                 "answer": "Revenue"
               }
             ]
@@ -4781,12 +3799,7 @@
               {
                 "id": 1,
                 "question": "What is the basic economic problem?",
-                "options": [
-                  "Scarcity",
-                  "Inflation",
-                  "Recession",
-                  "Poverty"
-                ],
+                "options": ["Scarcity", "Inflation", "Recession", "Poverty"],
                 "answer": "Scarcity"
               },
               {
@@ -4803,12 +3816,7 @@
               {
                 "id": 3,
                 "question": "What type of economy is controlled by the government?",
-                "options": [
-                  "Mixed",
-                  "Command",
-                  "Free market",
-                  "Traditional"
-                ],
+                "options": ["Mixed", "Command", "Free market", "Traditional"],
                 "answer": "Command"
               },
               {
@@ -4825,12 +3833,7 @@
               {
                 "id": 5,
                 "question": "Which curve slopes downward from left to right?",
-                "options": [
-                  "Revenue",
-                  "Cost",
-                  "Supply",
-                  "Demand"
-                ],
+                "options": ["Revenue", "Cost", "Supply", "Demand"],
                 "answer": "Demand"
               },
               {
@@ -4847,12 +3850,7 @@
               {
                 "id": 7,
                 "question": "Which factor of production earns wages?",
-                "options": [
-                  "Land",
-                  "Entrepreneur",
-                  "Labor",
-                  "Capital"
-                ],
+                "options": ["Land", "Entrepreneur", "Labor", "Capital"],
                 "answer": "Labor"
               },
               {
@@ -4946,12 +3944,7 @@
               {
                 "id": 16,
                 "question": "Which sector includes agriculture?",
-                "options": [
-                  "Primary",
-                  "Tertiary",
-                  "Quaternary",
-                  "Secondary"
-                ],
+                "options": ["Primary", "Tertiary", "Quaternary", "Secondary"],
                 "answer": "Primary"
               },
               {
@@ -4968,12 +3961,7 @@
               {
                 "id": 18,
                 "question": "What do we call the total money supply in an economy?",
-                "options": [
-                  "Money stock",
-                  "Capital",
-                  "Currency",
-                  "Liquidity"
-                ],
+                "options": ["Money stock", "Capital", "Currency", "Liquidity"],
                 "answer": "Money stock"
               },
               {
@@ -5006,23 +3994,13 @@
               {
                 "id": 1,
                 "question": "What is the term for a situation where demand exceeds supply?",
-                "options": [
-                  "Surplus",
-                  "Scarcity",
-                  "Shortage",
-                  "Equilibrium"
-                ],
+                "options": ["Surplus", "Scarcity", "Shortage", "Equilibrium"],
                 "answer": "Shortage"
               },
               {
                 "id": 2,
                 "question": "Which type of goods are used together?",
-                "options": [
-                  "Complements",
-                  "Substitutes",
-                  "Inferior",
-                  "Normal"
-                ],
+                "options": ["Complements", "Substitutes", "Inferior", "Normal"],
                 "answer": "Complements"
               },
               {
@@ -5039,23 +4017,13 @@
               {
                 "id": 4,
                 "question": "Which factor of production includes machinery?",
-                "options": [
-                  "Enterprise",
-                  "Land",
-                  "Capital",
-                  "Labor"
-                ],
+                "options": ["Enterprise", "Land", "Capital", "Labor"],
                 "answer": "Capital"
               },
               {
                 "id": 5,
                 "question": "What is the result of price floor above equilibrium?",
-                "options": [
-                  "Equilibrium",
-                  "Surplus",
-                  "Deflation",
-                  "Shortage"
-                ],
+                "options": ["Equilibrium", "Surplus", "Deflation", "Shortage"],
                 "answer": "Surplus"
               },
               {
@@ -5116,12 +4084,7 @@
               {
                 "id": 11,
                 "question": "Which type of unemployment is caused by economic downturn?",
-                "options": [
-                  "Cyclical",
-                  "Seasonal",
-                  "Structural",
-                  "Frictional"
-                ],
+                "options": ["Cyclical", "Seasonal", "Structural", "Frictional"],
                 "answer": "Cyclical"
               },
               {
@@ -5171,12 +4134,7 @@
               {
                 "id": 16,
                 "question": "Which organization regulates international trade?",
-                "options": [
-                  "World Bank",
-                  "IMF",
-                  "UN",
-                  "WTO"
-                ],
+                "options": ["World Bank", "IMF", "UN", "WTO"],
                 "answer": "WTO"
               },
               {
@@ -5341,23 +4299,13 @@
               {
                 "id": 11,
                 "question": "What is the result of a price ceiling set below equilibrium?",
-                "options": [
-                  "Surplus",
-                  "Monopoly",
-                  "Equilibrium",
-                  "Shortage"
-                ],
+                "options": ["Surplus", "Monopoly", "Equilibrium", "Shortage"],
                 "answer": "Shortage"
               },
               {
                 "id": 12,
                 "question": "What term describes income not spent or used for consumption?",
-                "options": [
-                  "Revenue",
-                  "Investment",
-                  "Saving",
-                  "Debt"
-                ],
+                "options": ["Revenue", "Investment", "Saving", "Debt"],
                 "answer": "Saving"
               },
               {
@@ -5396,12 +4344,7 @@
               {
                 "id": 16,
                 "question": "Which term defines the total value of goods produced and services provided in a country during one year?",
-                "options": [
-                  "GDP",
-                  "PPP",
-                  "GNP",
-                  "CPI"
-                ],
+                "options": ["GDP", "PPP", "GNP", "CPI"],
                 "answer": "GDP"
               },
               {
@@ -5472,12 +4415,7 @@
               {
                 "id": 2,
                 "question": "Which of the following is an example of a commercial activity?",
-                "options": [
-                  "Sleeping",
-                  "Jogging",
-                  "Banking",
-                  "Studying"
-                ],
+                "options": ["Sleeping", "Jogging", "Banking", "Studying"],
                 "answer": "Banking"
               },
               {
@@ -5494,12 +4432,7 @@
               {
                 "id": 4,
                 "question": "Which sector does commerce belong to?",
-                "options": [
-                  "Secondary",
-                  "Tertiary",
-                  "Quaternary",
-                  "Primary"
-                ],
+                "options": ["Secondary", "Tertiary", "Quaternary", "Primary"],
                 "answer": "Tertiary"
               },
               {
@@ -5516,12 +4449,7 @@
               {
                 "id": 6,
                 "question": "What is trade a part of?",
-                "options": [
-                  "Commerce",
-                  "Transport",
-                  "Production",
-                  "Banking"
-                ],
+                "options": ["Commerce", "Transport", "Production", "Banking"],
                 "answer": "Commerce"
               },
               {
@@ -5538,12 +4466,7 @@
               {
                 "id": 8,
                 "question": "Which of the following is an aid to trade?",
-                "options": [
-                  "Farming",
-                  "Mining",
-                  "Manufacturing",
-                  "Banking"
-                ],
+                "options": ["Farming", "Mining", "Manufacturing", "Banking"],
                 "answer": "Banking"
               },
               {
@@ -5774,23 +4697,13 @@
               {
                 "id": 9,
                 "question": "Who is the end consumer in a typical commercial chain?",
-                "options": [
-                  "Buyer",
-                  "Wholesaler",
-                  "Producer",
-                  "Retailer"
-                ],
+                "options": ["Buyer", "Wholesaler", "Producer", "Retailer"],
                 "answer": "Buyer"
               },
               {
                 "id": 10,
                 "question": "Which term refers to the final user of goods?",
-                "options": [
-                  "Retailer",
-                  "Producer",
-                  "Wholesaler",
-                  "Consumer"
-                ],
+                "options": ["Retailer", "Producer", "Wholesaler", "Consumer"],
                 "answer": "Consumer"
               },
               {
@@ -5873,12 +4786,7 @@
               {
                 "id": 18,
                 "question": "Which of these is not an element of commerce?",
-                "options": [
-                  "Mining",
-                  "Transport",
-                  "Advertising",
-                  "Banking"
-                ],
+                "options": ["Mining", "Transport", "Advertising", "Banking"],
                 "answer": "Mining"
               },
               {
@@ -5895,12 +4803,7 @@
               {
                 "id": 20,
                 "question": "Which organization sets trade rules globally?",
-                "options": [
-                  "WTO",
-                  "ECOWAS",
-                  "UN",
-                  "AU"
-                ],
+                "options": ["WTO", "ECOWAS", "UN", "AU"],
                 "answer": "WTO"
               }
             ]
@@ -6136,6 +5039,7 @@
   },
   {
     "subject": "General Studies",
+    "description": "Dive into global politics, international relations, and world events.",
     "subsubjects": [
       {
         "subsubject": "Civics",
@@ -6146,12 +5050,7 @@
               {
                 "id": 1,
                 "question": "What is the basic unit of a society?",
-                "options": [
-                  "School",
-                  "Family",
-                  "Community",
-                  "Government"
-                ],
+                "options": ["School", "Family", "Community", "Government"],
                 "answer": "Family"
               },
               {
@@ -6168,12 +5067,7 @@
               {
                 "id": 3,
                 "question": "Who is the head of a local government council?",
-                "options": [
-                  "Councillor",
-                  "President",
-                  "Chairman",
-                  "Governor"
-                ],
+                "options": ["Councillor", "President", "Chairman", "Governor"],
                 "answer": "Chairman"
               },
               {
@@ -6201,12 +5095,7 @@
               {
                 "id": 6,
                 "question": "Which arm of government makes laws?",
-                "options": [
-                  "Police",
-                  "Judiciary",
-                  "Legislative",
-                  "Executive"
-                ],
+                "options": ["Police", "Judiciary", "Legislative", "Executive"],
                 "answer": "Legislative"
               },
               {
@@ -6234,12 +5123,7 @@
               {
                 "id": 9,
                 "question": "How many states are in Nigeria?",
-                "options": [
-                  "30",
-                  "36",
-                  "35",
-                  "37"
-                ],
+                "options": ["30", "36", "35", "37"],
                 "answer": "36"
               },
               {
@@ -6289,12 +5173,7 @@
               {
                 "id": 14,
                 "question": "Which government agency conducts elections in Nigeria?",
-                "options": [
-                  "NDLEA",
-                  "EFCC",
-                  "INEC",
-                  "NCC"
-                ],
+                "options": ["NDLEA", "EFCC", "INEC", "NCC"],
                 "answer": "INEC"
               },
               {
@@ -6355,12 +5234,7 @@
               {
                 "id": 20,
                 "question": "Which institution defends the country from external aggression?",
-                "options": [
-                  "Civil defense",
-                  "Police",
-                  "Army",
-                  "Customs"
-                ],
+                "options": ["Civil defense", "Police", "Army", "Customs"],
                 "answer": "Army"
               }
             ]
@@ -6651,12 +5525,7 @@
               {
                 "id": 6,
                 "question": "The concept of 'checks and balances' was first elaborated by which political philosopher?",
-                "options": [
-                  "Montesquieu",
-                  "Hobbes",
-                  "John Locke",
-                  "Rousseau"
-                ],
+                "options": ["Montesquieu", "Hobbes", "John Locke", "Rousseau"],
                 "answer": "Montesquieu"
               },
               {
@@ -6837,12 +5706,7 @@
               {
                 "id": 2,
                 "question": "Which country hosted the 2024 Summer Olympics?",
-                "options": [
-                  "United Kingdom",
-                  "France",
-                  "Brazil",
-                  "Japan"
-                ],
+                "options": ["United Kingdom", "France", "Brazil", "Japan"],
                 "answer": "France"
               },
               {
@@ -6859,23 +5723,13 @@
               {
                 "id": 4,
                 "question": "Which technology company is known for developing the iPhone?",
-                "options": [
-                  "Samsung",
-                  "Microsoft",
-                  "Apple",
-                  "Google"
-                ],
+                "options": ["Samsung", "Microsoft", "Apple", "Google"],
                 "answer": "Apple"
               },
               {
                 "id": 5,
                 "question": "What currency does Japan use?",
-                "options": [
-                  "Won",
-                  "Yen",
-                  "Dollar",
-                  "Euro"
-                ],
+                "options": ["Won", "Yen", "Dollar", "Euro"],
                 "answer": "Yen"
               },
               {
@@ -6892,12 +5746,7 @@
               {
                 "id": 7,
                 "question": "Which country is known as the 'Land of the Rising Sun'?",
-                "options": [
-                  "Japan",
-                  "South Korea",
-                  "Thailand",
-                  "China"
-                ],
+                "options": ["Japan", "South Korea", "Thailand", "China"],
                 "answer": "Japan"
               },
               {
@@ -6914,23 +5763,13 @@
               {
                 "id": 9,
                 "question": "Which social media platform is owned by Meta Platforms, Inc.?",
-                "options": [
-                  "Snapchat",
-                  "Twitter",
-                  "Facebook",
-                  "TikTok"
-                ],
+                "options": ["Snapchat", "Twitter", "Facebook", "TikTok"],
                 "answer": "Facebook"
               },
               {
                 "id": 10,
                 "question": "What is the capital city of Canada?",
-                "options": [
-                  "Toronto",
-                  "Vancouver",
-                  "Montreal",
-                  "Ottawa"
-                ],
+                "options": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
                 "answer": "Ottawa"
               },
               {
@@ -6947,12 +5786,7 @@
               {
                 "id": 12,
                 "question": "Which country launched the Artemis I mission aiming to return humans to the Moon?",
-                "options": [
-                  "India",
-                  "China",
-                  "United States",
-                  "Russia"
-                ],
+                "options": ["India", "China", "United States", "Russia"],
                 "answer": "United States"
               },
               {
@@ -6969,12 +5803,7 @@
               {
                 "id": 14,
                 "question": "Which country is the largest producer of coffee in the world?",
-                "options": [
-                  "Brazil",
-                  "Ethiopia",
-                  "Vietnam",
-                  "Colombia"
-                ],
+                "options": ["Brazil", "Ethiopia", "Vietnam", "Colombia"],
                 "answer": "Brazil"
               },
               {
@@ -6991,34 +5820,19 @@
               {
                 "id": 16,
                 "question": "Which country recently adopted the Euro as its official currency (as of 2024)?",
-                "options": [
-                  "Croatia",
-                  "Norway",
-                  "Sweden",
-                  "Poland"
-                ],
+                "options": ["Croatia", "Norway", "Sweden", "Poland"],
                 "answer": "Croatia"
               },
               {
                 "id": 17,
                 "question": "Which company developed the AI language model GPT?",
-                "options": [
-                  "Facebook",
-                  "Google",
-                  "IBM",
-                  "OpenAI"
-                ],
+                "options": ["Facebook", "Google", "IBM", "OpenAI"],
                 "answer": "OpenAI"
               },
               {
                 "id": 18,
                 "question": "What is the name of the famous trade agreement between Canada, the United States, and Mexico?",
-                "options": [
-                  "NAFTA",
-                  "USMCA",
-                  "TPP",
-                  "CETA"
-                ],
+                "options": ["NAFTA", "USMCA", "TPP", "CETA"],
                 "answer": "USMCA"
               },
               {
@@ -7035,12 +5849,7 @@
               {
                 "id": 20,
                 "question": "Which country hosted the 2022 FIFA World Cup?",
-                "options": [
-                  "Russia",
-                  "Brazil",
-                  "Germany",
-                  "Qatar"
-                ],
+                "options": ["Russia", "Brazil", "Germany", "Qatar"],
                 "answer": "Qatar"
               }
             ]
@@ -7073,34 +5882,19 @@
               {
                 "id": 3,
                 "question": "Which African country launched the world’s largest single-site solar power plant in 2024?",
-                "options": [
-                  "Morocco",
-                  "South Africa",
-                  "Egypt",
-                  "Kenya"
-                ],
+                "options": ["Morocco", "South Africa", "Egypt", "Kenya"],
                 "answer": "Morocco"
               },
               {
                 "id": 4,
                 "question": "What is the name of the cryptocurrency that faced a major crash in early 2025?",
-                "options": [
-                  "Dogecoin",
-                  "TerraUSD",
-                  "Bitcoin",
-                  "Ethereum"
-                ],
+                "options": ["Dogecoin", "TerraUSD", "Bitcoin", "Ethereum"],
                 "answer": "TerraUSD"
               },
               {
                 "id": 5,
                 "question": "Which country became the first to reach net-zero carbon emissions by 2025?",
-                "options": [
-                  "Iceland",
-                  "New Zealand",
-                  "Costa Rica",
-                  "Bhutan"
-                ],
+                "options": ["Iceland", "New Zealand", "Costa Rica", "Bhutan"],
                 "answer": "Bhutan"
               },
               {
@@ -7117,12 +5911,7 @@
               {
                 "id": 7,
                 "question": "Which country withdrew from the Belt and Road Initiative in 2024?",
-                "options": [
-                  "Indonesia",
-                  "Pakistan",
-                  "Malaysia",
-                  "Sri Lanka"
-                ],
+                "options": ["Indonesia", "Pakistan", "Malaysia", "Sri Lanka"],
                 "answer": "Malaysia"
               },
               {
@@ -7139,23 +5928,13 @@
               {
                 "id": 9,
                 "question": "Which tech giant announced the launch of the first commercial quantum computer in 2024?",
-                "options": [
-                  "IBM",
-                  "Google",
-                  "Microsoft",
-                  "Intel"
-                ],
+                "options": ["IBM", "Google", "Microsoft", "Intel"],
                 "answer": "IBM"
               },
               {
                 "id": 10,
                 "question": "Which South American country legalized recreational marijuana nationwide in 2024?",
-                "options": [
-                  "Colombia",
-                  "Chile",
-                  "Uruguay",
-                  "Argentina"
-                ],
+                "options": ["Colombia", "Chile", "Uruguay", "Argentina"],
                 "answer": "Argentina"
               },
               {
@@ -7183,12 +5962,7 @@
               {
                 "id": 13,
                 "question": "Which country experienced the largest inflation rate in 2024?",
-                "options": [
-                  "Argentina",
-                  "Turkey",
-                  "Zimbabwe",
-                  "Venezuela"
-                ],
+                "options": ["Argentina", "Turkey", "Zimbabwe", "Venezuela"],
                 "answer": "Turkey"
               },
               {
@@ -7205,12 +5979,7 @@
               {
                 "id": 15,
                 "question": "Which country became the first in the world to have 100% renewable energy for electricity in 2024?",
-                "options": [
-                  "Costa Rica",
-                  "Denmark",
-                  "Iceland",
-                  "Norway"
-                ],
+                "options": ["Costa Rica", "Denmark", "Iceland", "Norway"],
                 "answer": "Iceland"
               },
               {
@@ -7227,34 +5996,19 @@
               {
                 "id": 17,
                 "question": "Which country hosted the 2024 G7 Summit?",
-                "options": [
-                  "France",
-                  "Italy",
-                  "Germany",
-                  "Japan"
-                ],
+                "options": ["France", "Italy", "Germany", "Japan"],
                 "answer": "Italy"
               },
               {
                 "id": 18,
                 "question": "Which country successfully landed its first rover on Mars in 2025?",
-                "options": [
-                  "China",
-                  "United States",
-                  "India",
-                  "Russia"
-                ],
+                "options": ["China", "United States", "India", "Russia"],
                 "answer": "China"
               },
               {
                 "id": 19,
                 "question": "Which social media platform banned political ads globally in 2024?",
-                "options": [
-                  "Twitter",
-                  "TikTok",
-                  "Facebook",
-                  "LinkedIn"
-                ],
+                "options": ["Twitter", "TikTok", "Facebook", "LinkedIn"],
                 "answer": "Twitter"
               },
               {
@@ -7276,12 +6030,7 @@
               {
                 "id": 1,
                 "question": "Which country became the first to deploy a fully operational 6G network in 2025?",
-                "options": [
-                  "Japan",
-                  "China",
-                  "United States",
-                  "South Korea"
-                ],
+                "options": ["Japan", "China", "United States", "South Korea"],
                 "answer": "South Korea"
               },
               {
@@ -7298,12 +6047,7 @@
               {
                 "id": 3,
                 "question": "Which country announced its withdrawal from the Open Skies Treaty in 2024?",
-                "options": [
-                  "India",
-                  "China",
-                  "United States",
-                  "Russia"
-                ],
+                "options": ["India", "China", "United States", "Russia"],
                 "answer": "Russia"
               },
               {
@@ -7408,12 +6152,7 @@
               {
                 "id": 13,
                 "question": "Which country spearheaded the International Lunar Research Station project with China in 2025?",
-                "options": [
-                  "Japan",
-                  "India",
-                  "Russia",
-                  "United States"
-                ],
+                "options": ["Japan", "India", "Russia", "United States"],
                 "answer": "Russia"
               },
               {
@@ -7452,12 +6191,7 @@
               {
                 "id": 17,
                 "question": "Which country became the first to adopt a sovereign digital currency on blockchain in 2025?",
-                "options": [
-                  "China",
-                  "Sweden",
-                  "Nigeria",
-                  "Bahamas"
-                ],
+                "options": ["China", "Sweden", "Nigeria", "Bahamas"],
                 "answer": "China"
               },
               {
@@ -7506,23 +6240,13 @@
               {
                 "id": 1,
                 "question": "What is the capital of France?",
-                "options": [
-                  "London",
-                  "Paris",
-                  "Rome",
-                  "Berlin"
-                ],
+                "options": ["London", "Paris", "Rome", "Berlin"],
                 "answer": "Paris"
               },
               {
                 "id": 2,
                 "question": "Which planet is known as the Red Planet?",
-                "options": [
-                  "Saturn",
-                  "Jupiter",
-                  "Mars",
-                  "Venus"
-                ],
+                "options": ["Saturn", "Jupiter", "Mars", "Venus"],
                 "answer": "Mars"
               },
               {
@@ -7539,12 +6263,7 @@
               {
                 "id": 4,
                 "question": "How many continents are there on Earth?",
-                "options": [
-                  "8",
-                  "6",
-                  "5",
-                  "7"
-                ],
+                "options": ["8", "6", "5", "7"],
                 "answer": "7"
               },
               {
@@ -7561,34 +6280,19 @@
               {
                 "id": 6,
                 "question": "What is the chemical symbol for water?",
-                "options": [
-                  "H2O",
-                  "O2",
-                  "CO2",
-                  "NaCl"
-                ],
+                "options": ["H2O", "O2", "CO2", "NaCl"],
                 "answer": "H2O"
               },
               {
                 "id": 7,
                 "question": "Which country is famous for the Great Wall?",
-                "options": [
-                  "Egypt",
-                  "Japan",
-                  "China",
-                  "India"
-                ],
+                "options": ["Egypt", "Japan", "China", "India"],
                 "answer": "China"
               },
               {
                 "id": 8,
                 "question": "What is the main language spoken in Spain?",
-                "options": [
-                  "Italian",
-                  "Spanish",
-                  "French",
-                  "English"
-                ],
+                "options": ["Italian", "Spanish", "French", "English"],
                 "answer": "Spanish"
               },
               {
@@ -7605,67 +6309,37 @@
               {
                 "id": 10,
                 "question": "How many sides does a triangle have?",
-                "options": [
-                  "6",
-                  "5",
-                  "3",
-                  "4"
-                ],
+                "options": ["6", "5", "3", "4"],
                 "answer": "3"
               },
               {
                 "id": 11,
                 "question": "What is the freezing point of water in Celsius?",
-                "options": [
-                  "-1",
-                  "100",
-                  "32",
-                  "0"
-                ],
+                "options": ["-1", "100", "32", "0"],
                 "answer": "0"
               },
               {
                 "id": 12,
                 "question": "Which animal is known as the King of the Jungle?",
-                "options": [
-                  "Lion",
-                  "Giraffe",
-                  "Tiger",
-                  "Elephant"
-                ],
+                "options": ["Lion", "Giraffe", "Tiger", "Elephant"],
                 "answer": "Lion"
               },
               {
                 "id": 13,
                 "question": "Which planet is closest to the Sun?",
-                "options": [
-                  "Earth",
-                  "Mars",
-                  "Mercury",
-                  "Venus"
-                ],
+                "options": ["Earth", "Mars", "Mercury", "Venus"],
                 "answer": "Mercury"
               },
               {
                 "id": 14,
                 "question": "What is the tallest mountain in the world?",
-                "options": [
-                  "Lhotse",
-                  "Kangchenjunga",
-                  "K2",
-                  "Mount Everest"
-                ],
+                "options": ["Lhotse", "Kangchenjunga", "K2", "Mount Everest"],
                 "answer": "Mount Everest"
               },
               {
                 "id": 15,
                 "question": "What gas do plants absorb from the atmosphere?",
-                "options": [
-                  "Carbon dioxide",
-                  "Helium",
-                  "Nitrogen",
-                  "Oxygen"
-                ],
+                "options": ["Carbon dioxide", "Helium", "Nitrogen", "Oxygen"],
                 "answer": "Carbon dioxide"
               },
               {
@@ -7693,23 +6367,13 @@
               {
                 "id": 18,
                 "question": "What do bees produce?",
-                "options": [
-                  "Silk",
-                  "Milk",
-                  "Honey",
-                  "Wax"
-                ],
+                "options": ["Silk", "Milk", "Honey", "Wax"],
                 "answer": "Honey"
               },
               {
                 "id": 19,
                 "question": "How many legs does a spider have?",
-                "options": [
-                  "6",
-                  "4",
-                  "8",
-                  "10"
-                ],
+                "options": ["6", "4", "8", "10"],
                 "answer": "8"
               },
               {
@@ -7731,12 +6395,7 @@
               {
                 "id": 1,
                 "question": "Which country hosted the 2016 Summer Olympics?",
-                "options": [
-                  "Russia",
-                  "Brazil",
-                  "China",
-                  "United Kingdom"
-                ],
+                "options": ["Russia", "Brazil", "China", "United Kingdom"],
                 "answer": "Brazil"
               },
               {
@@ -7753,23 +6412,13 @@
               {
                 "id": 3,
                 "question": "What is the smallest planet in our solar system?",
-                "options": [
-                  "Mercury",
-                  "Venus",
-                  "Pluto",
-                  "Mars"
-                ],
+                "options": ["Mercury", "Venus", "Pluto", "Mars"],
                 "answer": "Mercury"
               },
               {
                 "id": 4,
                 "question": "Which element has the atomic number 6?",
-                "options": [
-                  "Helium",
-                  "Carbon",
-                  "Oxygen",
-                  "Nitrogen"
-                ],
+                "options": ["Helium", "Carbon", "Oxygen", "Nitrogen"],
                 "answer": "Carbon"
               },
               {
@@ -7786,45 +6435,25 @@
               {
                 "id": 6,
                 "question": "Which country is known as the Land of the Rising Sun?",
-                "options": [
-                  "Japan",
-                  "South Korea",
-                  "China",
-                  "Thailand"
-                ],
+                "options": ["Japan", "South Korea", "China", "Thailand"],
                 "answer": "Japan"
               },
               {
                 "id": 7,
                 "question": "What is the capital city of Canada?",
-                "options": [
-                  "Montreal",
-                  "Vancouver",
-                  "Toronto",
-                  "Ottawa"
-                ],
+                "options": ["Montreal", "Vancouver", "Toronto", "Ottawa"],
                 "answer": "Ottawa"
               },
               {
                 "id": 8,
                 "question": "What is the largest internal organ in the human body?",
-                "options": [
-                  "Lung",
-                  "Kidney",
-                  "Liver",
-                  "Heart"
-                ],
+                "options": ["Lung", "Kidney", "Liver", "Heart"],
                 "answer": "Liver"
               },
               {
                 "id": 9,
                 "question": "In which year did the Berlin Wall fall?",
-                "options": [
-                  "1989",
-                  "1993",
-                  "1987",
-                  "1991"
-                ],
+                "options": ["1989", "1993", "1987", "1991"],
                 "answer": "1989"
               },
               {
@@ -7841,12 +6470,7 @@
               {
                 "id": 11,
                 "question": "What is the currency of South Africa?",
-                "options": [
-                  "Rand",
-                  "Dollar",
-                  "Euro",
-                  "Pound"
-                ],
+                "options": ["Rand", "Dollar", "Euro", "Pound"],
                 "answer": "Rand"
               },
               {
@@ -7863,12 +6487,7 @@
               {
                 "id": 13,
                 "question": "Which gas is most abundant in the Earth's atmosphere?",
-                "options": [
-                  "Carbon dioxide",
-                  "Argon",
-                  "Nitrogen",
-                  "Oxygen"
-                ],
+                "options": ["Carbon dioxide", "Argon", "Nitrogen", "Oxygen"],
                 "answer": "Nitrogen"
               },
               {
@@ -7885,45 +6504,25 @@
               {
                 "id": 15,
                 "question": "What is the name of the longest river in the world?",
-                "options": [
-                  "Yangtze",
-                  "Amazon",
-                  "Mississippi",
-                  "Nile"
-                ],
+                "options": ["Yangtze", "Amazon", "Mississippi", "Nile"],
                 "answer": "Nile"
               },
               {
                 "id": 16,
                 "question": "Which planet has the most moons?",
-                "options": [
-                  "Saturn",
-                  "Mars",
-                  "Uranus",
-                  "Jupiter"
-                ],
+                "options": ["Saturn", "Mars", "Uranus", "Jupiter"],
                 "answer": "Saturn"
               },
               {
                 "id": 17,
                 "question": "In which year did World War II end?",
-                "options": [
-                  "1939",
-                  "1950",
-                  "1945",
-                  "1941"
-                ],
+                "options": ["1939", "1950", "1945", "1941"],
                 "answer": "1945"
               },
               {
                 "id": 18,
                 "question": "What is the primary language spoken in Brazil?",
-                "options": [
-                  "French",
-                  "Spanish",
-                  "English",
-                  "Portuguese"
-                ],
+                "options": ["French", "Spanish", "English", "Portuguese"],
                 "answer": "Portuguese"
               },
               {
@@ -7940,12 +6539,7 @@
               {
                 "id": 20,
                 "question": "Which country is the largest by land area?",
-                "options": [
-                  "Canada",
-                  "Russia",
-                  "United States",
-                  "China"
-                ],
+                "options": ["Canada", "Russia", "United States", "China"],
                 "answer": "Russia"
               }
             ]
@@ -8000,34 +6594,19 @@
               {
                 "id": 5,
                 "question": "In which year was the first Nobel Prize awarded?",
-                "options": [
-                  "1901",
-                  "1895",
-                  "1887",
-                  "1910"
-                ],
+                "options": ["1901", "1895", "1887", "1910"],
                 "answer": "1901"
               },
               {
                 "id": 6,
                 "question": "What was the capital city of the ancient Hittite Empire?",
-                "options": [
-                  "Hattusa",
-                  "Babylon",
-                  "Nineveh",
-                  "Persepolis"
-                ],
+                "options": ["Hattusa", "Babylon", "Nineveh", "Persepolis"],
                 "answer": "Hattusa"
               },
               {
                 "id": 7,
                 "question": "Which language has the highest number of native speakers worldwide?",
-                "options": [
-                  "English",
-                  "Mandarin Chinese",
-                  "Hindi",
-                  "Spanish"
-                ],
+                "options": ["English", "Mandarin Chinese", "Hindi", "Spanish"],
                 "answer": "Mandarin Chinese"
               },
               {
@@ -8044,45 +6623,25 @@
               {
                 "id": 9,
                 "question": "Which planet has the highest density in the solar system?",
-                "options": [
-                  "Earth",
-                  "Jupiter",
-                  "Mercury",
-                  "Venus"
-                ],
+                "options": ["Earth", "Jupiter", "Mercury", "Venus"],
                 "answer": "Earth"
               },
               {
                 "id": 10,
                 "question": "What is the name of the first artificial Earth satellite launched by the Soviet Union?",
-                "options": [
-                  "Vostok 1",
-                  "Sputnik 1",
-                  "Luna 2",
-                  "Soyuz 1"
-                ],
+                "options": ["Vostok 1", "Sputnik 1", "Luna 2", "Soyuz 1"],
                 "answer": "Sputnik 1"
               },
               {
                 "id": 11,
                 "question": "Which element has the highest melting point?",
-                "options": [
-                  "Osmium",
-                  "Tungsten",
-                  "Iron",
-                  "Carbon"
-                ],
+                "options": ["Osmium", "Tungsten", "Iron", "Carbon"],
                 "answer": "Tungsten"
               },
               {
                 "id": 12,
                 "question": "Which civilization built the city of Machu Picchu?",
-                "options": [
-                  "Inca",
-                  "Aztec",
-                  "Maya",
-                  "Olmec"
-                ],
+                "options": ["Inca", "Aztec", "Maya", "Olmec"],
                 "answer": "Inca"
               },
               {
@@ -8110,12 +6669,7 @@
               {
                 "id": 15,
                 "question": "What is the capital city of Kazakhstan?",
-                "options": [
-                  "Almaty",
-                  "Nur-Sultan",
-                  "Astana",
-                  "Tashkent"
-                ],
+                "options": ["Almaty", "Nur-Sultan", "Astana", "Tashkent"],
                 "answer": "Nur-Sultan"
               },
               {
@@ -8143,12 +6697,7 @@
               {
                 "id": 18,
                 "question": "Which country is the largest producer of coffee worldwide?",
-                "options": [
-                  "Ethiopia",
-                  "Vietnam",
-                  "Colombia",
-                  "Brazil"
-                ],
+                "options": ["Ethiopia", "Vietnam", "Colombia", "Brazil"],
                 "answer": "Brazil"
               },
               {
@@ -8165,12 +6714,7 @@
               {
                 "id": 20,
                 "question": "Which Greek philosopher was the teacher of Alexander the Great?",
-                "options": [
-                  "Plato",
-                  "Pythagoras",
-                  "Socrates",
-                  "Aristotle"
-                ],
+                "options": ["Plato", "Pythagoras", "Socrates", "Aristotle"],
                 "answer": "Aristotle"
               }
             ]

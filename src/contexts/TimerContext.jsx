@@ -5,6 +5,8 @@ const TimerProvider = ({ children }) => {
   const [state, dispatch] = useReducer(timerReducer, initialTimerState);
 
   useEffect(() => {
+    if (!state.isRunning) return;
+
     const id = setInterval(() => {
       dispatch({ type: "DECREMENT_TIME" });
     }, 1000);
@@ -15,7 +17,7 @@ const TimerProvider = ({ children }) => {
       clearInterval(id);
       dispatch({ type: "CLEAR_INTERVAL" });
     };
-  }, []);
+  }, [state.isRunning]);
 
   useEffect(() => {
     if (state.timeLeft <= 0 && !state.isTimeUp) {

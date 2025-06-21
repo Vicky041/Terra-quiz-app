@@ -1,15 +1,12 @@
-import React from "react";
-import DashboardWelcome from "../ui/DashboardWelcome";
-import DashboardSubject from "../ui/DashboardSubject";
-import Dashboardlevel from "../ui/DashboardLevel";
-
+import { Outlet } from "react-router-dom";
+import { QuizFilterProvider } from "../contexts/QuizFilterContext";
 const Dashboard = () => {
   return (
-    <>
-      {/* <DashboardWelcome /> */}
-      {/* <DashboardSubject /> */}
-      <Dashboardlevel />
-    </>
+    <QuizFilterProvider>
+      <div>
+        <Outlet />
+      </div>
+    </QuizFilterProvider>
   );
 };
 

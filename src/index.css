@@ -13,6 +13,7 @@
   --clr-text: #1B0749;
   --clr-text-light: #442D7C66;
   --clr-background: #FFFFFF;
+  --clr-list-background: #F4F3F6;
 
   --fs-300: 12px;
   --fs-400: 14px;
@@ -39,6 +40,10 @@ body {
   font-family:  var(--ff-body);
   background-color: #f0f0f0;
   color: #333;
+}
+
+ul {
+  list-style: none;
 }
 
 

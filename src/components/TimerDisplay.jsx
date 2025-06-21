@@ -8,7 +8,7 @@ const TimerDisplay = () => {
 
   return (
     <div className="timer-wrapper">
-      <div className={`timer-text ${timeClass}`}>Time Left: {formatTime(timeLeft)}</div>
+      <div className={`timer-text ${timeClass}`}>{formatTime(timeLeft)}</div>
     </div>
   );
 };

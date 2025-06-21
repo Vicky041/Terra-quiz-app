@@ -2,37 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: '"Work Sans", sans-serif;
 }
 
 .timer-text {
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #2c3e50; /* Dark blue-gray */
-  background-color: #ecf0f1; /* Light gray background */
+  font-size: 16px;
+  font-weight: bold;
+  color: #F3645F;
   padding: 12px 24px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   min-width: 160px;
   text-align: center;
   user-select: none;
   transition: color 0.3s ease, background-color 0.3s ease;
-}
-
-.timer-text.low-time {
-  color: #e74c3c; /* Red */
-  background-color: #fdecea; /* Light red background */
-  font-weight: 700;
-  animation: pulse 1.5s infinite;
-}
-
-/* Subtle pulse animation for low time */
-@keyframes pulse {
-  0%, 100% {
-    box-shadow: 0 0 8px #e74c3c;
-  }
-  50% {
-    box-shadow: 0 0 20px #e74c3c;
-  }
 }
