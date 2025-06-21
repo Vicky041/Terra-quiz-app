@@ -1,17 +1,16 @@
 
-export default function Button({ color, bgColor, type, padding, fs, wd, children }) {
+export default function Button({ color, bgColor, type, children }) {
     const btn = {
         color: color,
         fontFamily: 'inherit',
         fontWeight: 'bold',
-        fontSize: fs || '1.5rem',
+        fontSize: '1rem',
         backgroundColor: bgColor,
         border: 'none',
         borderRadius: '5px',
-        padding: padding || '.8rem 1.2rem',
+        padding: '0 1.5rem',
         cursor: 'pointer',
-        width: wd || '100%',
-        margin: "0 auto"
+        width: 'fit-content'
     };
 
     return (

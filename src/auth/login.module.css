@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #442d7c;
+  /* background-color: #442d7c; */
   font-family: Arial, sans-serif;
   color: white;
   margin: 0;
@@ -94,7 +94,7 @@ input {
 
 button {
   height: 35px;
-  /* padding: 8px 12px; */
+  padding: 8px 12px;
   margin-top: 20px;
   background-color: white;
   color: #442d7c;
