@@ -36,6 +36,8 @@ const Quiz = () => {
 
   const { isTimeUp, resetTimer, pauseTimer, startTimer } = useTimer();
 
+  const random = getRandomQuestions(selectedLevel.questions, 10);
+
   useEffect(() => {
     if (isTimeUp && !showResult) {
       dispatch({ type: "SUBMIT_QUIZ" });
@@ -51,13 +53,18 @@ const Quiz = () => {
 
   useEffect(() => {
     if (questions.length === 0 && selectedLevel?.questions?.length > 0) {
-      const random = getRandomQuestions(selectedLevel.questions, 10);
       dispatch({ type: "LOAD_QUESTIONS", payload: random });
-
       resetTimer();
       startTimer();
     }
-  }, [questions.length, selectedLevel, dispatch, resetTimer, startTimer]);
+  }, [
+    questions.length,
+    selectedLevel,
+    dispatch,
+    resetTimer,
+    startTimer,
+    random,
+  ]);
 
   const handleAnswer = (answer) => {
     dispatch({ type: "ANSWER_QUESTION", payload: answer });
@@ -74,7 +81,7 @@ const Quiz = () => {
 
   const restartQuiz = () => {
     navigate("/dashboard");
-    dispatch({ type: "RESTART_QUIZ" });
+    dispatch({ type: "RESTART_QUIZ", payload: random });
     resetTimer();
     startTimer();
   };

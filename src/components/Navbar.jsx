@@ -4,8 +4,12 @@ import "../styles/Navbar.css";
 import logo from "../assets/quizzy.png";
 import Button from "./Button";
 
-export default function Navbar({ links = [], isUser = true, user = "Guest", handleLogout }) {
-
+export default function Navbar({
+  links = [],
+  isUser = true,
+  user = "Guest",
+  handleLogout,
+}) {
   const navigate = useNavigate();
 
   const handleStartQuiz = () => {
@@ -19,7 +23,7 @@ export default function Navbar({ links = [], isUser = true, user = "Guest", hand
     <header className="navbar">
       <div className="wrapper navbar__container">
         <div className="navbar__logo">
-          <NavLink to="/">
+          <NavLink to={isUser ? "/dashboard" : "/"}>
             <img src={logo} alt="Logo" />
           </NavLink>
         </div>

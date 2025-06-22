@@ -29,8 +29,6 @@ export const quizReducer = (state, action) => {
       const currentIndex = state.currentIndex;
       const currentQuestion = state.questions[currentIndex];
       const isCorrect = action.payload === currentQuestion.answer;
-
-      // ✅ update questions array to store selection
       const updatedQuestions = [...state.questions];
       updatedQuestions[currentIndex] = {
         ...currentQuestion,
@@ -47,7 +45,7 @@ export const quizReducer = (state, action) => {
 
       return {
         ...state,
-        questions: updatedQuestions, // 👈 update questions state
+        questions: updatedQuestions,
         selectedAnswer: action.payload,
         score: isCorrect ? state.score + 1 : state.score,
         userAnswers: updatedUserAnswers,
@@ -89,6 +87,7 @@ export const quizReducer = (state, action) => {
     case "RESTART_QUIZ":
       return {
         ...state,
+        questions: action.payload || state.questions,
         currentIndex: 0,
         score: 0,
         showResult: false,
