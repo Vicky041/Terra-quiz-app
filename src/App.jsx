@@ -6,13 +6,14 @@ import {
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
-import Dashboard from "./components/Dashboard";
 import Quiz from "./ui/Quiz";
 import Home from "./ui/Home";
 import DashboardWelcome from "./ui/DashboardWelcome";
 import DashboardSubject from "./ui/DashboardSubject";
 import DashboardLevel from "./ui/DashboardLevel";
 import RootLayout from "./layout/RootLayout";
+import DashboardLayout from "./layout/DashboardLayout";
+import Leaderboard from "./components/Leaderboard";
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -20,11 +21,12 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="signup" element={<SignUp />} />
         <Route path="login" element={<Login />} />
-        <Route path="dashboard" element={<Dashboard />}>
+        <Route path="dashboard" element={<DashboardLayout />}>
           <Route index element={<DashboardWelcome />} />
           <Route path="subject" element={<DashboardSubject />} />
           <Route path="level" element={<DashboardLevel />} />
           <Route path="quiz" element={<Quiz />} />
+          <Route path="leaderboard" element={<Leaderboard />} />
         </Route>
       </Route>
     )

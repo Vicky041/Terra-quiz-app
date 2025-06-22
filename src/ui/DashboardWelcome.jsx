@@ -9,6 +9,7 @@ import Science from "../assets/dna.png";
 import Commercial from "../assets/Commercial2.png";
 import General from "../assets/interface-searching-01-8.png";
 import User from "../assets/man.png";
+import { useAuth } from "../hooks/useAuth";
 
 const subjectImages = {
   Art,
@@ -21,6 +22,8 @@ const DashboardWelcome = () => {
   const navigate = useNavigate();
   const { dispatch } = useQuizFilter();
 
+  const { user } = useAuth();
+
   const handleClick = useCallback(
     (subjectData) => {
       dispatch({ type: "SET_SUBJECT", payload: subjectData });
@@ -29,11 +32,15 @@ const DashboardWelcome = () => {
     [dispatch, navigate]
   );
 
+  if (!user) {
+    navigate("/login");
+  }
+
   return (
     <div className="container">
       <div className="welcomeText">
         <img src={User} alt="User" />
-        <h1>Welcome, Natalie Dave</h1>
+        <h1>Welcome, {user.fullName}</h1>
       </div>
 
       <div className="cards">

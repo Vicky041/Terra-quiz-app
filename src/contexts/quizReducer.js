@@ -76,6 +76,7 @@ export const quizReducer = (state, action) => {
         total: state.questions.length,
         date: new Date().toLocaleString(),
         answers: state.userAnswers,
+        user: action.payload?.user || { fullName: "Guest" },
       };
       return {
         ...state,

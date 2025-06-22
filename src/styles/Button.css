@@ -58,3 +58,10 @@
   opacity: 0.7;
   transform: none;
 }
+
+/* Big button modifier */
+.btn-large {
+  font-size: 16px !important;
+  padding: 1rem 2.5rem;
+}
+

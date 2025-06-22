@@ -168,6 +168,13 @@
   transform: rotate(-135deg);
 }
 
+.navbar-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .menu {

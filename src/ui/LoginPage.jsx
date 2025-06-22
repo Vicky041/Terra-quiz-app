@@ -2,34 +2,41 @@ import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { ImFacebook } from "react-icons/im";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../styles/Auth.css";
+import { useAuth } from "../hooks/useAuth";
 
 export default function Login() {
+  const {dispatch} = useAuth();
+  const navigate = useNavigate();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
-  const handleLogin = (e) => {
-    e.preventDefault();
+const handleLogin = (e) => {
+  e.preventDefault();
 
-    const storedUser = JSON.parse(localStorage.getItem("user"));
+  const storedUser = JSON.parse(localStorage.getItem("user"));
 
-    if (!storedUser) {
-      setError("No user found. Please sign up first.");
-      return;
-    }
+  if (!storedUser) {
+    setError("No user found. Please sign up first.");
+    return;
+  }
 
-    if (email === storedUser.email && password === storedUser.password) {
-      toast.success("Login successful!");
-      setError("");
-    } else {
-      setError("Invalid email or password.");
-    }
-  };
+  if (email === storedUser.email && password === storedUser.password) {
+    toast.success("Login successful!");
+    setError("");
+    dispatch({ type: "LOGIN", payload: storedUser }); // ✅ update context
+  } else {
+    setError("Invalid email or password.");
+  }
+  navigate("/dashboard");
+};
+
 
   const togglePassword = () => {
     if (showPassword === true) {
